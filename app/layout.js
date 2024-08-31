@@ -25,10 +25,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-        <link rel="preload" href="../public/fonts/GABRWFFR.ttf" as="font" type="font/ttf" />
-        <link rel="prefetch" href="../public/fonts/GABRWFFR.ttf" as="font" type="font/ttf" />
-      </head>
       <body className={anton.className}>
         <Navbar />
         {children}

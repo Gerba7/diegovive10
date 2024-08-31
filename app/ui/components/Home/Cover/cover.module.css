@@ -60,6 +60,10 @@
     color: var(--cutColor);
 }
 
+.subtitle {
+    font-size: var(--title);
+}
+
 .countries {
     display: flex;
     flex-direction: column;

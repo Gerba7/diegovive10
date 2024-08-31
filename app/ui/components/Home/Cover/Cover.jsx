@@ -24,7 +24,7 @@ const Cover = () => {
             <div className={styles.banner}>
                 <h2 className={styles.bannerText}>VENÍ A ENCONTRARTE CON DIEGO</h2>
             </div>
-            <h3 className={gabrielClassName}>World Tour</h3>
+            <h3 className={`${gabrielClassName} ${styles.subtitle}`}>World Tour</h3>
             <div className={styles.countries}>
                 <div className={styles.done}>
                     <h4 className={styles.country}>NAPOLI</h4>
