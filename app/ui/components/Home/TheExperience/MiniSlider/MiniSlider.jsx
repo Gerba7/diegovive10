@@ -68,6 +68,7 @@ const MiniSlider = () => {
 
   return (
     <div className={styles.container}>
+        <></>
         <div className={styles.topSelectors}>
             {items?.map((item, idx) => (
                 <h3 key={idx} className={`${styles.titleSelector} ${slideIndex === idx && styles.titleActive}`} onClick={() => setSlideIndex(idx)}>{item.title}</h3>
