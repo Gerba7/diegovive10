@@ -18,6 +18,7 @@ const TheExperience = () => {
     <div className={styles.container}>
       <div className={styles.top}>
         <h2 className={`${gabrielClassName} ${styles.titles}`}>EXPERIENCIA<br/>INMERSIVA</h2>
+        <></>
       </div>
       <div className={styles.icons}>
         <div className={styles.iconContainer}>
