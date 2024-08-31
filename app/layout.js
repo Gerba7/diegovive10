@@ -9,7 +9,7 @@ const anton = Anton({ subsets: ["latin"], display: 'swap', weight: ['400'], });
 export const gabriel = localFont({
   src: [
     {
-      path: '../public/fonts/gabrwffr.ttf',
+      path: './public/fonts/gabrwffr.ttf',
       weight: '500',
     },
   ],
