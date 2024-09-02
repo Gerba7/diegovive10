@@ -58,7 +58,7 @@ const TheExperience = () => {
       <div className={`${styles.gridContainer} ${helveticaClassName}`}>
         <div className={styles.imgContainer}>
           <Image className={styles.img} src={Tunel2} alt='' />
-          <h4 className={styles.text}><span className={`${styles.color} ${gabrielClassName}`}>El Gol del siglo.</span></h4>
+          <h4 className={styles.text}><span className={`${styles.color} ${gabrielClassName}`}>El Gol del siglo.</span> La reconstrucción de la casa donde Diego pasó su infancia es muy emotiva. Al entrar, se siente el gran valor simbólico de este lugar.</h4>
         </div>
         <div className={styles.imgContainer}>
           <Image className={styles.img} src={Casa} alt='' />
@@ -76,11 +76,11 @@ const TheExperience = () => {
       <div className={styles.rowContainer}>
         <div className={styles.top}>
           <h2 style={{textAlign: 'center'}} className={`${styles.titles}`}>DESAFIOS<br/>DEL 10</h2>
-          <div className={styles.imgContainer}>
+          <div className={`${styles.imgContainer} ${helveticaClassName}`}>
             <Image className={styles.img} src={Dribbling} alt='' />
             <h4 className={styles.text}><span className={`${styles.color} ${gabrielClassName}`}>Vive la experiencia Maradona!</span> Juegos interactivos diseñados especialmente para DIEGO VIVE te permitirán entrenar y divertirte como un verdadero campeón.</h4>
           </div>
-          <div className={styles.imgContainer}>
+          <div className={`${styles.imgContainer} ${helveticaClassName}`}>
             <Image className={styles.img} src={Penalties} alt='' />
             <h4 className={styles.text}><span className={`${styles.color} ${gabrielClassName}`}>El Gol del siglo.</span> Estaciones interactivas permiten a los visitantes vivir en primera persona uno de los momentos más icónicos de Maradona: el gol a Inglaterra.</h4>
           </div>
