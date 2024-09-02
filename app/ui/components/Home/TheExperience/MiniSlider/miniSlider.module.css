@@ -28,6 +28,7 @@
     border-bottom: 2px solid transparent;
     letter-spacing: var(--letterSpacing);
     cursor: pointer;
+    font-size: var(--title2);
 }
 
 .titleActive {
@@ -186,21 +187,13 @@
         background-color: #344b6be0;
     }
 
-    .top {
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        z-index: 5;
-        color: var(--brandIn);
-        z-index: 10;
-        left: 10vw;
-        top: 55vh;
+    .topSelectors {
+        width: 80%;
+        height: 15%;
     }
 
-    .textContainer {
-        top: 50vh;
-        width: 100%;
-        height: 50%;
+    .titleSelector {
+        font-size: var(--titleMobile);
     }
 
     .background {
@@ -214,32 +207,6 @@
         margin-left: 0%;
         -webkit-mask-image: linear-gradient(to left, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 1) 100%);
         mask-image: linear-gradient(to left, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 1) 100%);
-    }
-
-    .triangle {
-        display: none;
-    }
-
-    .dotsContainer {
-        width: 100%;
-    }
-
-    .titleTop {
-        font-size: var(--mobileTitle);
-    }
-    
-    .paragraph {
-        font-size: var(--mobileSubtitle);
-    }
-
-    .title {
-        font-size: var(--mobileTitle);
-        text-align: center;
-    }
-    
-    .text {
-        font-size: var(--mobileSubtitle);
-        text-align: center;
     }
 
 

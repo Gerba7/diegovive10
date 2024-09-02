@@ -103,3 +103,55 @@
     align-items: center;
     justify-content: center;
 }
+
+
+
+
+@media  (max-width: 799px) {
+
+    .container {
+        padding: 10vh 5vw;
+    }
+
+    .img {
+        width: 40vw;
+        height: auto;
+    }
+
+    .bannerText {
+        font-size: var(--titleMobile);
+        letter-spacing: var(--letterSpacing);
+        color: var(--bg);
+    }
+    
+    .subtitle {
+        font-size: var(--subtitleMobile);
+    }
+
+    .country {
+        font-size: var(--title2Mobile);
+        width: 30vw;
+    }
+
+
+}
+
+
+@media (min-width: 800px) and (max-width: 999px) {
+
+
+
+}
+
+
+@media (min-width: 1000px) and (max-width: 1199px) {
+    
+
+
+}
+
+
+@media (min-width: 1200px) and (max-width: 1499px) {
+
+
+}

@@ -107,6 +107,7 @@
 .answer {
     display: none;
     color: var(--bg);
+    font-size: var(--header);
 }
 
 .visible {
@@ -118,18 +119,24 @@
 @media  (max-width: 799px) {
 
     .container {
-        height: 100vh;
+        height: 150vh;
         padding: 5vh 5vw;
         flex-direction: column;
     }
 
     .wrapperLeft{
         width: 100%;
-        height: 50%;
+        height: 35%;
+        -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, .7) 70%, rgba(0, 0, 0, 0) 100%);
+        mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, .7) 70%, rgba(0, 0, 0, 0) 100%);
+    }
+
+    .right {
+        gap: 5vh;
     }
 
     .title {
-        font-size: var(--mobileTitle2);
+        font-size: var(--superTitleMobile);
         text-align: center;
     }
 
@@ -137,10 +144,12 @@
         gap: 10vw;
     }
 
-    .badgeTitle {
-        text-align: center;
-        line-height: 2vh;
-        font-size: var(--mobileParagraph);
+    .questionTitle {
+        font-size: var(--title2Mobile);
+    }
+
+    .answer {
+        font-size: var(--headerMobile);
     }
 
 }

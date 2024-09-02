@@ -65,6 +65,7 @@
 
 .subtitle {
     font-size: var(--title2);
+    letter-spacing: var(--letterSpacing);
 }
 
 .socialIcon {
@@ -103,4 +104,73 @@
 .sponsor {
     height: 7vw;
     width: auto;
+}
+
+
+
+@media  (max-width: 799px) {
+
+    .container {
+        flex-direction: column;
+        padding: 10vh 5vw;
+        gap: 5vw
+    }
+
+    .title {
+        font-size: var(--superTitleMobile);
+        margin-bottom: 5vh;
+    }
+
+    .socialContainer {
+        gap: 5vw;
+    }
+
+    .subtitle {
+        font-size: var(--titleMobile);
+    }
+
+    .socialIcon {
+        border-radius: 15px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        font-size: 10vw;
+    }
+
+    .sponsorsContainer {
+        gap: 2vh;
+    }
+
+    .sponsors {
+        gap: 5vw;
+    }
+
+    .sponsor {
+        height: 20vw;
+        width: auto;
+    }
+
+
+}
+
+
+@media (min-width: 800px) and (max-width: 999px) {
+
+
+
+}
+
+
+@media (min-width: 1000px) and (max-width: 1199px) {
+    
+
+
+}
+
+
+@media (min-width: 1200px) and (max-width: 1499px) {
+
+
 }

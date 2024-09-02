@@ -55,7 +55,7 @@ const Navbar = () => {
         <div className={styles.wrapper}>
           <div className={styles.left}>
               <div className={styles.burger} onClick={e => toggleMenu(e)}> 
-                <div className={styles.menuItem} style={{color: navHeight && '#788586'}}>
+                <div className={styles.menuItem} style={{color: navHeight && '#ffffff'}}>
                   {displayMenu ?  <MenuIcon color='inherit' style={{fontSize: 'inherit'}} /> 
                               :  <CloseIcon color='inherit' style={{fontSize: 'inherit'}} /> }
                 </div>

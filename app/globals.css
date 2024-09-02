@@ -11,6 +11,12 @@
   --subtitle: 1.2vw;
   --heading: .9vw;
 
+  --superTitleMobile: 7vw;
+  --titleMobile: 4vw;
+  --title2Mobile: 3vw;
+  --subtitleMobile: 2.4vw;
+  --headingMobile: 1.8vw;
+
   --letterSpacing: 1px;
 
 }

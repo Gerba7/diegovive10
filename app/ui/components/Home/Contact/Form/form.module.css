@@ -23,6 +23,7 @@
 
 .label {
     color: var(--bg);
+    font-size: var(--subtitle);
     letter-spacing: var(--letterSpacing);
 }
 

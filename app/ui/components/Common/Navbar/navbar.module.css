@@ -107,19 +107,20 @@
 .button {
     background-color: var(--cutColor);
     padding: 8px 16px;
-    color: var(--text);
+    color: var(--bg);
     font-weight: 700;
     outline: none;
     border: none;
     font-size: var(--heading);
     min-width: max-content;
     margin-left: 2vw;
-    /* border: 1px solid var(--BrandDark); */
+    cursor: pointer;
+    border: 1px solid transparent;
 }
 
 .button:hover {
-    background-color: var(--BrandLight);
-    /* border: 1px solid var(--BrandDark); */
+    background-color: transparent;
+    border: 1px solid var(--cutColor);
     color: var(--bg);
 }
 
@@ -139,7 +140,7 @@
 
     .containerHeight {
         padding: 0;
-        background: var(--BrandLight);
+        background: var(--main);
     }
 
     @keyframes opacity {
@@ -193,8 +194,12 @@
         width: max-content;
         color: #ffffff;
         position: relative;
-        font-size: 16px;
+        font-size: var(--title2Mobile);
         font-weight: 400;
+    }
+
+    .button {
+        font-size: var(--titleMobile);
     }
 
 }

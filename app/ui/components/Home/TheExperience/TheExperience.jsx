@@ -7,6 +7,7 @@ import ENTRETENIMIENTO from '../../../../../public/images/entretenimiento.png';
 import ENVOLVENTE from '../../../../../public/images/envolvente.png';
 import FAMILIA from '../../../../../public/images/familia.png';
 import Tunel2 from '../../../../../public/images/Tunel2.jpg';
+import Diegos from '../../../../../public/images/DIEGOS.png';
 import Casa from '../../../../../public/images/casa.jpg';
 import Mano from '../../../../../public/images/mano.jpg';
 import Dribbling from '../../../../../public/images/dribbling.png';
@@ -74,7 +75,7 @@ const TheExperience = () => {
         </div>
       </div>
       <div className={styles.rowContainer}>
-        <div className={styles.top}>
+        <div className={styles.top2}>
           <h2 style={{textAlign: 'center'}} className={`${styles.titles}`}>DESAFIOS<br/>DEL 10</h2>
           <div className={`${styles.imgContainer} ${helveticaClassName}`}>
             <Image className={styles.img} src={Dribbling} alt='' />
@@ -86,6 +87,7 @@ const TheExperience = () => {
           </div>
         </div>
       </div>
+      <Image src={Diegos} className={styles.bottomImg} alt='Diego' />
     </div>
   )
 }
