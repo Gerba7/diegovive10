@@ -16,15 +16,15 @@ const Cover = () => {
         <h1 style={{display: 'none'}}>diegovive10</h1>
         <div className={styles.back}>
             <video preload="none" className={styles.video} autoPlay loop muted playsInline> 
-                <source src={"/video/video.mp4"} type="video/mp4" />
+                <source src={"/video/video2.mp4"} type="video/mp4" />
             </video>
         </div>
         <div className={styles.wrapper}>
             <Image className={styles.img} src={Logo_DiegoVive10} alt='Logo diegovive10' priority />
             <div className={styles.banner}>
-                <h2 className={styles.bannerText}>VENÍ A ENCONTRARTE CON DIEGO</h2>
+                <h2 className={`${gabrielClassName} ${styles.bannerText}`}>UNA EXPERIENCIA INMERSIVA</h2>
+                <h3 className={`${gabrielClassName} ${styles.subtitle}`}>World Tour</h3>
             </div>
-            <h3 className={`${gabrielClassName} ${styles.subtitle}`}>World Tour</h3>
             <div className={styles.countries}>
                 <div className={styles.done}>
                     <h4 className={styles.country}>NAPOLI</h4>

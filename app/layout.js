@@ -16,6 +16,16 @@ export const gabriel = localFont({
   display: 'swap',
 })
 
+export const helvetica = localFont({
+  src: [
+    {
+      path: '../public/fonts/Helvetica.ttf',
+      weight: '500',
+    },
+  ],
+  display: 'swap',
+})
+
 
 export const metadata = {
   title: "DiegoVive10",

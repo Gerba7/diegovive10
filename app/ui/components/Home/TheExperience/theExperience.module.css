@@ -8,7 +8,7 @@
     color: #fff;
     justify-content: center;
     position: relative;
-    background-image: url('../../../../../public/images/backgorund.jpg');
+    background-image: url('../../../../../public/images/backgorund1.jpg');
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -17,11 +17,19 @@
 
 .top {
     padding: 0 15vw;
+    display: flex;
+    align-items: center;
+    gap: 5vw;
 }
 
 .titles {
     font-size: var(--superTitle);
-    text-align: center;
+    letter-spacing: var(--letterSpacing);
+    flex: 1;
+}
+
+.paragraph {
+    flex: 1;  
 }
 
 .icons {
@@ -37,7 +45,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1vh;
+    gap: 2vh;
 }
 
 .icon {
@@ -46,11 +54,23 @@
 }
 
 .iconTitle {
-    letter-spacing: var(--letterSpacing);
     text-align: center;
 }
 
 .carouselContainer {
     width: 100%;
     height: 80vh;
+}
+
+.gridContainer {
+    padding: 0 15vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    grid-gap: 5vh;
+}
+
+.img {
+    width: 100%;
+    height: 80%;
 }
