@@ -6,7 +6,7 @@ import Image from 'next/image';
 import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import MEMORABILIA from '../../../../../../public/images/tunel.jpg';
-import TUNEL from '../../../../../../public/images/tunel2.jpg';
+import TUNEL from '../../../../../../public/images/Tunel2.jpg';
 import HOLOGRAMA from '../../../../../../public/images/holograma.jpg';
 
 
