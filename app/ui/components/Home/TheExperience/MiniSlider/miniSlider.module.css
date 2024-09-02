@@ -9,7 +9,7 @@
     position: absolute;
     height: 10%;
     width: 40%;
-    background-color: #000;
+    background-color: var(--main);
     top: 0;
     left: 50%;
     transform: translate(-50%,-50%);

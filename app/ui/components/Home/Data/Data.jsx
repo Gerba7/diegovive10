@@ -1,20 +1,14 @@
-'use client'
-
 import styles from './data.module.css';
 import Diego from '../../../../../public/images/data.jpg';
 import Image from 'next/image';
-import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
-import { useState } from 'react';
+import { useMemo } from 'react';
+import { helvetica } from '@/app/layout';
 
 
 const Data = () => {
 
-  const [activeQuestion, setActiveQuestion] = useState(null);
-
-  const handleToggleAnswer = (questionId) => {
-    setActiveQuestion(activeQuestion === questionId ? null : questionId);
-  };
-
+  
+  const helveticaClassName = useMemo(() => helvetica.className, [helvetica]);
 
   return (
     <div className={styles.container}>
@@ -30,11 +24,11 @@ const Data = () => {
           <div className={styles.question}>
             <div className={styles.top}>
               <div className={styles.questionTitle}>Que es DIEGO VIVE?</div>
-              <div className={`${styles.iconContainer} ${activeQuestion === 'question1' && styles.rotate}`} onClick={() => handleToggleAnswer('question1')}>
+              {/* <div className={`${styles.iconContainer} ${activeQuestion === 'question1' && styles.rotate}`} onClick={() => handleToggleAnswer('question1')}>
                 <KeyboardArrowDownIcon color='inherit' fontSize='inherit' />
-              </div>
+              </div> */}
             </div>
-            <div className={`${styles.answer} ${activeQuestion === 'question1' && styles.visible}`}>
+            <div className={`${styles.answer} ${styles.visible} ${helveticaClassName}`}>
               DIEGO VIVE es el primer PARQUE TEMÁTICO del mundo concebido y creado como homenaje a DIEGO ARMANDO MARADONA, 
               figura deportiva tan grande en fama y carisma, ídolo inmortal 
               para millones de aficionados. Un gran ESPACIO DE ENTRETENIMIENTO PARA TODA LA FAMILIA, donde padres y abuelos 
@@ -46,11 +40,11 @@ const Data = () => {
           <div className={styles.question}>
             <div className={styles.top}>
               <div className={styles.questionTitle}>Cuanto dura la visita?</div>
-              <div className={`${styles.iconContainer} ${activeQuestion === 'question2' && styles.rotate}`} onClick={() => handleToggleAnswer('question2')}>
+              {/* <div className={`${styles.iconContainer} ${activeQuestion === 'question2' && styles.rotate}`} onClick={() => handleToggleAnswer('question2')}>
                 <KeyboardArrowDownIcon color='inherit' fontSize='inherit' />
-              </div>
+              </div> */}
             </div>
-            <div className={`${styles.answer} ${activeQuestion === 'question2' && styles.visible}`}>
+            <div className={`${styles.answer} ${styles.visible} ${helveticaClassName}`}>
               La visita al parque tiene una duración de aproximadamente 50 minutos.
             </div>
           </div>

@@ -1,10 +1,11 @@
-import { Anton } from "next/font/google";
+import { Anton, Roboto } from "next/font/google";
 import "./globals.css";
 import Navbar from "./ui/components/Common/Navbar/Navbar";
 import localFont from 'next/font/local';
 
 
 const anton = Anton({ subsets: ["latin"], display: 'swap', weight: ['400'], });
+export const roboto = Roboto({ subsets: ["latin"], display: 'swap', weight: ['400', '500', '700'], });
 
 export const gabriel = localFont({
   src: [

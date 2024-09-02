@@ -9,6 +9,9 @@ import FAMILIA from '../../../../../public/images/familia.png';
 import Tunel2 from '../../../../../public/images/Tunel2.jpg';
 import Casa from '../../../../../public/images/casa.jpg';
 import Mano from '../../../../../public/images/mano.jpg';
+import Dribbling from '../../../../../public/images/dribbling.png';
+import Penalties from '../../../../../public/images/penales.png';
+import VR from '../../../../../public/images/vr.jpg';
 import Image from 'next/image';
 
 
@@ -52,11 +55,36 @@ const TheExperience = () => {
       <div className={styles.top}>
         <h2 style={{textAlign: 'center'}} className={`${styles.titles}`}>CONVERTITE EN MARADONA<br/>POR UN DIA</h2>
       </div>
-      <div className={styles.gridContainer}>
-        <Image className={styles.img} src={Tunel2} alt='' />
-        <Image className={styles.img} src={Casa} alt='' />
-        <Image className={styles.img} src={Mano} alt='' />
-        <Image className={styles.img} src={Tunel2} alt='' />
+      <div className={`${styles.gridContainer} ${helveticaClassName}`}>
+        <div className={styles.imgContainer}>
+          <Image className={styles.img} src={Tunel2} alt='' />
+          <h4 className={styles.text}><span className={`${styles.color} ${gabrielClassName}`}>El Gol del siglo.</span></h4>
+        </div>
+        <div className={styles.imgContainer}>
+          <Image className={styles.img} src={Casa} alt='' />
+          <h4 className={styles.text}><span className={`${styles.color} ${gabrielClassName}`}>Descubre la historia de Diego.</span> La reconstrucción de la casa donde Diego pasó su infancia es muy emotiva. Al entrar, se siente el gran valor simbólico de este lugar.</h4>
+        </div>
+        <div className={styles.imgContainer}>
+          <Image className={styles.img} src={Mano} alt='' />
+          <h4 className={styles.text}><span className={`${styles.color} ${gabrielClassName}`}>El gol con la mano.</span> La reconstrucción de la casa donde Diego pasó su infancia es muy emotiva. Al entrar, se siente el gran valor simbólico de este lugar.</h4>
+        </div>
+        <div className={styles.imgContainer}>
+          <Image className={styles.img} src={VR} alt='' />
+          <h4 className={styles.text}><span className={`${styles.color} ${gabrielClassName}`}>El Gol del siglo.</span> Estaciones interactivas permiten a los visitantes vivir en primera persona uno de los momentos más icónicos de Maradona: el gol a Inglaterra.</h4>
+        </div>
+      </div>
+      <div className={styles.rowContainer}>
+        <div className={styles.top}>
+          <h2 style={{textAlign: 'center'}} className={`${styles.titles}`}>DESAFIOS<br/>DEL 10</h2>
+          <div className={styles.imgContainer}>
+            <Image className={styles.img} src={Dribbling} alt='' />
+            <h4 className={styles.text}><span className={`${styles.color} ${gabrielClassName}`}>Vive la experiencia Maradona!</span> Juegos interactivos diseñados especialmente para DIEGO VIVE te permitirán entrenar y divertirte como un verdadero campeón.</h4>
+          </div>
+          <div className={styles.imgContainer}>
+            <Image className={styles.img} src={Penalties} alt='' />
+            <h4 className={styles.text}><span className={`${styles.color} ${gabrielClassName}`}>El Gol del siglo.</span> Estaciones interactivas permiten a los visitantes vivir en primera persona uno de los momentos más icónicos de Maradona: el gol a Inglaterra.</h4>
+          </div>
+        </div>
       </div>
     </div>
   )

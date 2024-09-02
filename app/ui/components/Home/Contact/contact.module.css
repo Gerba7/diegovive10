@@ -1,0 +1,106 @@
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--bgDark);
+    color: #fff;
+    padding: 15vh 15vw;
+    justify-content: center;
+    position: relative;
+    background-image: url('../../../../../public/images/maradonaCopa.webp');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    gap: 5vw
+}
+
+.back {
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .7;
+    background-color: var(--main);  /*#232a34*/
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 5vh;
+    color: var(--textBright);
+}
+
+.left {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: var(--superTitle);
+    color: var(--bg);
+    z-index: 4;
+    margin-bottom: 5vh;
+    letter-spacing: var(--letterSpacing);
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+    align-items: center;
+    justify-content: center;
+    gap: 10vh;
+    padding-left: 2vw;
+}
+
+.socialContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    flex-direction: column;
+}
+
+.subtitle {
+    font-size: var(--title2);
+}
+
+.socialIcon {
+    border-radius: 15px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 3vw;
+}
+
+.facebook:hover {
+    background-color: #3B5999;
+}
+
+.instagram:hover {
+    background-color: #E4405F;
+}
+
+.sponsorsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sponsors {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.sponsor {
+    height: 7vw;
+    width: auto;
+}

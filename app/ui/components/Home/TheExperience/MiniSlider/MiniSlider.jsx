@@ -5,8 +5,8 @@ import styles from './miniSlider.module.css';
 import Image from 'next/image';
 import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
-import CHIPI from '../../../../../../public/images/chipi.jpeg';
-import TUNEL from '../../../../../../public/images/tunel.jpg';
+import MEMORABILIA from '../../../../../../public/images/tunel.jpg';
+import TUNEL from '../../../../../../public/images/tunel2.jpg';
 import HOLOGRAMA from '../../../../../../public/images/holograma.jpg';
 
 
@@ -19,13 +19,13 @@ const items = [
     },
     {
       id: 1,
-      title: 'HOLOGRAMAS',
+      title: 'INMERSIVA',
       img: HOLOGRAMA,
     },
     {
       id: 2,
       title: 'MEMORABILA',
-      img: CHIPI,
+      img: MEMORABILIA,
     },
 ]
 

@@ -7,11 +7,11 @@
     z-index: 15;
     will-change: height;
     transition: height 0.5s ease;
-    background-color: var(--text);
+    background-color: var(--main);
 }
 
 .containerHeight {
-    background-color: var(--text);
+    background-color: var(--main);
     padding: 2vh 15vw;
     display: flex;
     align-items: center;
@@ -113,6 +113,7 @@
     border: none;
     font-size: var(--heading);
     min-width: max-content;
+    margin-left: 2vw;
     /* border: 1px solid var(--BrandDark); */
 }
 
