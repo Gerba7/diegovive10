@@ -107,7 +107,7 @@
 .answer {
     display: none;
     color: var(--bg);
-    font-size: var(--header);
+    font-size: var(--heading);
 }
 
 .visible {
@@ -149,7 +149,7 @@
     }
 
     .answer {
-        font-size: var(--headerMobile);
+        font-size: var(--subtitleMobile);
     }
 
 }
