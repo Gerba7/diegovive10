@@ -78,6 +78,12 @@
     font-size: 3vw;
 }
 
+.icons {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+}
+
 .facebook:hover {
     background-color: #3B5999;
 }
@@ -150,6 +156,12 @@
     .sponsor {
         height: 20vw;
         width: auto;
+    }
+
+    .icons {
+        display: flex;
+        flex-direction: row;
+        gap: 5vw;
     }
 
 

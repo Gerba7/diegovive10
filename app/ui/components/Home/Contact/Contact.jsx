@@ -20,7 +20,7 @@ const Contact = () => {
       <div className={styles.right}>
         <div className={styles.socialContainer}>
             <h3 className={styles.subtitle}>Seguinos!</h3>
-            <div style={{display: 'flex', flexDirection: 'row', gap: '2vw'}}> 
+            <div className={styles.icons}> 
                 <a href='https://www.facebook.com/diegovive10' className={`${styles.socialIcon} ${styles.facebook}`} aria-label="Facebook Link">
                     <FacebookIcon fontSize='inherit' />
                 </a>
