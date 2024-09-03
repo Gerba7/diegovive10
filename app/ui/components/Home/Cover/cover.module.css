@@ -126,7 +126,7 @@
     }
     
     .subtitle {
-        font-size: var(--subtitleMobile);
+        font-size: var(--title2Mobile);
     }
 
     .country {

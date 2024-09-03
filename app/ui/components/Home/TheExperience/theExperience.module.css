@@ -121,13 +121,18 @@
     
     .titles {
         font-size: var(--superTitleMobile);
-        line-height: 8vw;
+        line-height: 6vh;
         text-align: center;
     }
     
     .paragraph {
         font-size: var(--title2Mobile);
         text-align: center;
+    }
+
+    .icons {
+        padding: 0 5vw;
+        justify-content: space-between;
     }
 
     .icon {
@@ -137,14 +142,14 @@
 
     .iconTitle {
         text-align: center;
-        font-size: var(--title2Mobile);
+        font-size: var(--subtitleMobile);
     }
 
     .gridContainer {
         padding: 0 5vw;
         grid-template-columns: 1fr;
         margin-bottom: 5vh;
-        grid-gap: 10vh;
+        grid-gap: 12vh;
     }
 
     .color {
@@ -162,7 +167,7 @@
 
     .top2 {
         padding: 0 5vw;
-        gap: 15vw;
+        gap: 12vh;
         flex-direction: column;
     }
 

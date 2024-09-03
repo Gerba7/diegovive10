@@ -119,7 +119,8 @@
     .container {
         flex-direction: column;
         padding: 10vh 5vw;
-        gap: 5vw
+        gap: 5vw;
+        background-attachment: initial;
     }
 
     .title {
