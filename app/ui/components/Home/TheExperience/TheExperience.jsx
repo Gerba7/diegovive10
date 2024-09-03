@@ -59,7 +59,7 @@ const TheExperience = () => {
       <div className={`${styles.gridContainer} ${helveticaClassName}`}>
         <div className={styles.imgContainer}>
           <Image className={styles.img} src={Tunel2} alt='' />
-          <h4 className={styles.text}><span className={`${styles.color} ${gabrielClassName}`}>El Gol del siglo.</span>Los visitantes tienen la oportunidad de convertirse en parte integral de uno de los momentos más célebres y emocionantes de la carrera deportiva de Diego Armando Maradona.</h4>
+          <h4 className={styles.text}><span className={`${styles.color} ${gabrielClassName}`}>El Gol del siglo.</span>Los visitantes tienen la oportunidad de convertirse en parte integral de uno de los momentos más célebres y emocionantes de la carrera deportiva del 10.</h4>
         </div>
         <div className={styles.imgContainer}>
           <Image className={styles.img} src={Casa} alt='' />
@@ -76,7 +76,7 @@ const TheExperience = () => {
       </div>
       <div className={styles.rowContainer}>
         <div className={styles.top2}>
-          <h2 style={{textAlign: 'center'}} className={`${styles.titles}`}>DESAFÍOS<br/>DEL 10</h2>
+          <h2 style={{textAlign: 'center'}} className={`${styles.titles2}`}>DESAFÍOS<br/>DEL 10</h2>
           <div className={`${styles.imgContainer} ${helveticaClassName}`}>
             <Image className={styles.img} src={Dribbling} alt='' />
             <h4 className={styles.text}><span className={`${styles.color} ${gabrielClassName}`}>Domina el balón como un maestro!</span>Realiza regates, fintas y pases espectaculares. ¡Demuestra tu habilidad y creatividad con el balón!</h4>
@@ -87,7 +87,10 @@ const TheExperience = () => {
           </div>
         </div>
       </div>
-      <Image src={Diegos} className={styles.bottomImg} alt='Diego' />
+      <div className={styles.bottom}>
+        <button className={styles.button}>COMPRAR ENTRADAS</button>
+        <Image src={Diegos} className={styles.bottomImg} alt='Diego' />
+      </div>
     </div>
   )
 }

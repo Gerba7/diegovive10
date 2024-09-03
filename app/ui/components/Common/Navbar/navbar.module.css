@@ -124,6 +124,27 @@
     color: var(--bg);
 }
 
+.button2 {
+    display: none;
+    background-color: var(--cutColor);
+    padding: 8px 16px;
+    color: var(--bg);
+    font-weight: 700;
+    outline: none;
+    border: none;
+    font-size: var(--heading);
+    min-width: max-content;
+    margin-left: 2vw;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.button2:hover {
+    background-color: transparent;
+    border: 1px solid var(--cutColor);
+    color: var(--bg);
+}
+
 @media (max-width: 800px) {
     
     .container {
@@ -153,7 +174,7 @@
     }
 
     .logoNavbar {
-        margin-left: 20px;
+        margin-left: 5vw;
         height: 50px;
         width: auto;
         opacity: 0;
@@ -198,8 +219,12 @@
         font-weight: 400;
     }
 
-    .button {
-        font-size: var(--titleMobile);
+    .button2 {
+        display: flex;
+        font-size: var(--subtitleMobile);
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
     }
 
 }
