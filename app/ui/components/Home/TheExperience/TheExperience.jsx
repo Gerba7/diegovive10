@@ -59,7 +59,7 @@ const TheExperience = () => {
       <div className={`${styles.gridContainer} ${helveticaClassName}`}>
         <div className={styles.imgContainer}>
           <Image className={styles.img} src={Tunel2} alt='' />
-          <h4 className={styles.text}><span className={`${styles.color} ${gabrielClassName}`}>El Gol del siglo.</span>Los visitantes tienen la oportunidad de convertirse en parte integral de uno de los momentos más célebres y emocionantes de la carrera deportiva del 10.</h4>
+          <h4 className={styles.text}><span className={`${styles.color} ${gabrielClassName}`}>El Gol del siglo.</span> Los visitantes tienen la oportunidad de convertirse en parte integral de uno de los momentos más célebres y emocionantes de la carrera deportiva del 10.</h4>
         </div>
         <div className={styles.imgContainer}>
           <Image className={styles.img} src={Casa} alt='' />
@@ -67,7 +67,7 @@ const TheExperience = () => {
         </div>
         <div className={styles.imgContainer}>
           <Image className={styles.img} src={Mano} alt='' />
-          <h4 className={styles.text}><span className={`${styles.color} ${gabrielClassName}`}>El gol con la mano.</span>Puesta en escena del momento donde nació la mano de DIOS. Podés vivirlo en preimera persona!</h4>
+          <h4 className={styles.text}><span className={`${styles.color} ${gabrielClassName}`}>El gol con la mano.</span> Puesta en escena del momento donde nació la mano de DIOS. Podés vivirlo en preimera persona!</h4>
         </div>
         <div className={styles.imgContainer}>
           <Image className={styles.img} src={VR} alt='' />
@@ -79,11 +79,11 @@ const TheExperience = () => {
           <h2 style={{textAlign: 'center'}} className={`${styles.titles2}`}>DESAFÍOS<br/>DEL 10</h2>
           <div className={`${styles.imgContainer} ${helveticaClassName}`}>
             <Image className={styles.img} src={Dribbling} alt='' />
-            <h4 className={styles.text}><span className={`${styles.color} ${gabrielClassName}`}>Domina el balón como un maestro!</span>Realiza regates, fintas y pases espectaculares. ¡Demuestra tu habilidad y creatividad con el balón!</h4>
+            <h4 className={styles.text}><span className={`${styles.color} ${gabrielClassName}`}> Domina el balón como el 10!</span>Realiza regates, fintas y pases espectaculares. ¡Demuestra tu habilidad y creatividad con el balón!</h4>
           </div>
           <div className={`${styles.imgContainer} ${helveticaClassName}`}>
             <Image className={styles.img} src={Penalties} alt='' />
-            <h4 className={styles.text}><span className={`${styles.color} ${gabrielClassName}`}>Anota como un campeón!</span>Ejecuta tiros libres, penales y disparos en movimiento, igual que los que hacía Diego en sus mejores momentos.</h4>
+            <h4 className={styles.text}><span className={`${styles.color} ${gabrielClassName}`}>Anota como un campeón!</span> Ejecuta tiros libres, penales y disparos en movimiento, igual que los que hacía Diego en sus mejores momentos.</h4>
           </div>
         </div>
       </div>

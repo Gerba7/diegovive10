@@ -16,22 +16,30 @@ const items = [
       id: 0,
       title: 'TÚNEL',
       img: TUNEL,
+      title2: 'EL ENCUENTRO CON DIEGO.',
+      text: 'Un túnel de imágenes te llevará a un recorrido por la vida de Maradona, marcado por una alfombra luminosa.'
     },
     {
       id: 1,
       title: 'INMERSIVA',
       img: HOLOGRAMA,
+      title2: 'EXPERIENCIA INMERSIVA.',
+      text: 'La sala principal del PARQUE ofrece un espectáculo inmersivo de 20 minutos, una obra de videoarte inédita que recorre la vida de Maradona.'
     },
     {
       id: 2,
-      title: 'MEMORABILA',
+      title: 'MEMORABILIA',
       img: MEMORABILIA,
+      title2: 'LA VIDA DE DIEGO.',
+      text: 'Una EXPOSICIÓN FOTOGRÁFICA de su vida personal y deportiva. Infografías con los eventos más destacados de su vida y carrera.'
     },
 ]
 
 
 
 const MiniSlider = () => {
+
+    
 
     const [slideIndex, setSlideIndex] = useState(0);
     
@@ -82,6 +90,10 @@ const MiniSlider = () => {
                 <div className={styles.slide} key={idx} style={{ transform: `translate(-${slideIndex * 100}%)`}}>
                     <div className={styles.background}>
                         <Image src={item.img} className={styles.backgroundImg} alt='Razones' />
+                    </div>
+                    <div className={styles.textContainer}>
+                        <h3 className={`${styles.footerText}`}>{item.title2}</h3>
+                        <p className={styles.text}>{item.text}</p>
                     </div>
                 </div>
             ))}
