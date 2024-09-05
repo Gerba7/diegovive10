@@ -36,9 +36,11 @@ const Cover = () => {
                 <div className={styles.done}>
                     <h4 className={styles.country}>NAPOLI</h4>
                     <h4 className={styles.country}>TEL-AVIV</h4>
+                    <h4 className={styles.country}>BARCELONA</h4>
                 </div>
                 <div className={styles.comingSoon}>
-                    <h4 className={styles.country}>BARCELONA</h4>
+                    <h4 className={`${styles.country} ${styles.soon}`}>BUENOS AIRES</h4>
+                    <h4 className={`${styles.country} ${styles.soon}`}>LIMA</h4>
                 </div>
             </div>
         </div>

@@ -68,13 +68,14 @@
 
 .bannerText {
     font-size: var(--title);
-    letter-spacing: var(--letterSpacing);
+    letter-spacing: var(--letterSpacing2);
+    font-weight: 400;
     color: var(--bg);
     text-align: center;
 }
 
 .subtitle {
-    font-size: var(--subtitle);
+    font-size: var(--title);
 }
 
 .countries {
@@ -98,6 +99,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    font-weight: 400;
     padding: .5vh 0;
     letter-spacing: var(--letterSpacing);
 }
@@ -107,6 +109,11 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    gap: 2vw;
+}
+
+.soon {
+    background-color: #0045b9;
 }
 
 
