@@ -29,6 +29,7 @@
     letter-spacing: var(--letterSpacing);
     cursor: pointer;
     font-size: var(--title2);
+    font-weight: 400;
 }
 
 .titleActive {

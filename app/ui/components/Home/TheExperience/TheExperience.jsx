@@ -46,11 +46,11 @@ const TheExperience = () => {
         </div>
         <div className={styles.iconContainer}>
             <Image className={styles.icon} src={ENVOLVENTE} />
-            <h3 className={`${helveticaClassName} ${styles.iconTitle}`}>{t("icon2")}<br/>{t("icon3B")}</h3>
+            <h3 className={`${helveticaClassName} ${styles.iconTitle}`}>{t("icon3")}<br/>{t("icon3B")}</h3>
         </div>
         <div className={styles.iconContainer}>
             <Image className={styles.icon} src={FAMILIA} />
-            <h3 className={`${helveticaClassName} ${styles.iconTitle}`}>{t("icon2")}<br/>{t("icon4B")}</h3>
+            <h3 className={`${helveticaClassName} ${styles.iconTitle}`}>{t("icon4")}<br/>{t("icon4B")}</h3>
         </div>
       </div>
       <div className={styles.carouselContainer}>
