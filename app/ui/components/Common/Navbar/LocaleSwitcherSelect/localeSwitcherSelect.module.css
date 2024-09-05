@@ -18,9 +18,8 @@
     .select {
         position: absolute;
         top: 25px;
-        left: 25px;
-        width: 15vw;
-
+        left: 50px;
+        width: 10vw;
     }
 
 }
