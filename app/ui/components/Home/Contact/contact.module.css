@@ -14,6 +14,12 @@
     gap: 5vw
 }
 
+.scrollOffset {
+    position: absolute;
+    top: -80px;
+    height: 80px;
+}
+
 .back {
     position: absolute;
     display: flex;

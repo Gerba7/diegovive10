@@ -1,0 +1,75 @@
+{
+    "navbar": {
+      "home": "inicio",
+      "experience": "experiencia",
+      "information": "información",
+      "location": "ubicación",
+      "contact": "contacto",
+      "buy": "COMPRAR ENTRADAS"
+    },
+    "cover": {
+      "title": "UNA EXPERIENCIA INMERSIVA",
+      "subtitle": "World Tour"
+    },
+    "experience": {
+      "title1top": "VENÍ A ENCONTRARTE",
+      "title1bottom": "CON DIEGO",
+      "description": "Viví una experiencia única en homenaje a Diego Armando Maradona, el mejor jugador de todos los tiempos. En evento para toda la familia. La historia de un niño que se convirtió en mito.",
+      "icon1": "Tecnología",
+      "icon1B": "Inmersiva",
+      "icon2": "2000 m2 de",
+      "icon2B": "entretenimiento",
+      "icon3": "Experiencia",
+      "icon3B": "envolvente",
+      "icon4": "Para toda",
+      "icon4B": "la familia",
+      "tunel": "TÚNEL",
+      "tunelTitle": "EL ENCUENTRO CON DIEGO.",
+      "tunelDescription": "Un túnel de imágenes te llevará a un recorrido por la vida de Maradona, marcado por una alfombra luminosa.",
+      "inmersive": "INMERSIVA",
+      "inmersiveTitle": "EXPERIENCIA INMERSIVA.",
+      "inmersiveDescription": "La sala principal del PARQUE ofrece un espectáculo inmersivo de 20 minutos, una obra de videoarte inédita que recorre la vida de Maradona.",
+      "memo": "MEMORABILIA",
+      "memoTitle": "LA VIDA DE DIEGO.",
+      "memoDescription": "Una EXPOSICIÓN FOTOGRÁFICA de su vida personal y deportiva. Infografías con los eventos más destacados de su vida y carrera.",
+      "title2top": "CONVERTITE EN MARADONA",
+      "title2bottom": "POR UN DÍA",
+      "img1Title": "El Gol del siglo",
+      "img1Description": "Los visitantes tienen la oportunidad de convertirse en parte integral de uno de los momentos más célebres y emocionantes de la carrera deportiva del 10.",
+      "img2Title": "Descubre la historia de Diego",
+      "img2Description": "La reconstrucción de la casa donde Diego pasó su infancia es muy emotiva. Al entrar, se siente el gran valor simbólico de este lugar.",
+      "img3Title": "El gol con la mano",
+      "img3Description": "Puesta en escena del momento donde nació la mano de DIOS. Podés vivirlo en preimera persona!",
+      "img4Title": "El Gol del siglo",
+      "img4Description": "Estaciones interactivas permiten a los visitantes vivir en primera persona uno de los momentos más icónicos de Maradona: el gol a Inglaterra.",
+      "title3top": "DESAFÍOS",
+      "title3bottom": "DEL 10",
+      "img5Title": "Domina el balón como el 10!",
+      "img5Description": "Realiza regates, fintas y pases espectaculares. ¡Demuestra tu habilidad y creatividad con el balón!",
+      "img6Title": "Anota como un campeón!",
+      "img6Description": "Ejecuta tiros libres, penales y disparos en movimiento, igual que los que hacía Diego en sus mejores momentos.",
+      "buy": "COMPRAR ENTRADAS"
+    },
+    "information": {
+        "infoTitle": "INFORMACIÓN PRÁCTICA",
+        "infoSubtitle1": "Qué es DIEGO VIVE?",
+        "infoDescription1": "DIEGO VIVE es el primer PARQUE TEMÁTICO del mundo concebido y creado como homenaje a DIEGO ARMANDO MARADONA, figura deportiva tan grande en fama y carisma, ídolo inmortal para millones de aficionados. Un gran espacop de entretenimiento para toda la faimilia, donde padres y abuelos podrán compartir con hijos y nietos la emoción de un viaje en el tiempo junto al mejor jugador de fútbol de todos los tiempos. Un evento imperdible para todos aquellos que amaron, y aún aman, al campeón eterno, en el imaginario colectivo mucho más que un futbolista. Una aventura 3D que te permite sentirte Maradona por un día, suspendido entre sueño y realidad.",
+        "infoSubtitle2": "Cuánto dura la visita?",
+        "infoDescription2": "La visita al parque tiene una duración de aproximadamente 50 minutos."
+    },
+    "contact": {
+        "contactTitle": "CONTACTO",
+        "name": "Nombre",
+        "surname": "Apellido",
+        "email": "E-Mail",
+        "phone": "Teléfono",
+        "message": "Mensaje",
+        "send": "ENVIAR",
+        "follow": "Seguinos!",
+        "sponsors": "Auspician"
+    },
+    "LocaleSwitcher": {
+      "label": "Idioma",
+      "locale": "{locale, select, en {Inglés} es {Español} it {Italiano}}"
+    }
+  }

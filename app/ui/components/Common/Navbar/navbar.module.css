@@ -79,6 +79,7 @@
     padding: 0 2vw;
     text-decoration: none;
     letter-spacing: var(--letterSpacing);
+    text-transform: uppercase;
 }
 
 .blankRight {

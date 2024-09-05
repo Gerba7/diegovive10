@@ -10,6 +10,12 @@
     background-size: cover;
 }
 
+.scrollOffset {
+    position: absolute;
+    top: -80px;
+    height: 80px;
+}
+
 .wrapperLeft{
     position: absolute;
     top: 0;

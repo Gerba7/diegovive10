@@ -1,0 +1,75 @@
+{
+    "navbar": {
+      "home": "home",
+      "experience": "experience",
+      "information": "information",
+      "location": "location",
+      "contact": "contact",
+      "buy": "BUY TICKETS"
+    },
+    "cover": {
+      "title": "AN IMMERSIVE EXPERIENCE",
+      "subtitle": "World Tour"
+    },
+    "experience": {
+      "title1top": "COME AND MEET",
+      "title1bottom": "DIEGO",
+      "description": "Experience a unique tribute to Diego Armando Maradona, the greatest player of all time. An event for the whole family. The story of a boy who became a legend.",
+      "icon1": "Immersive",
+      "icon1B": "Technology",
+      "icon2": "2000 m2 of",
+      "icon2B": "entertainment",
+      "icon3": "Enveloping",
+      "icon3B": "Experience",
+      "icon4": "For the",
+      "icon4B": "Whole Family",
+      "tunel": "TUNNEL",
+      "tunelTitle": "THE MEETING WITH DIEGO.",
+      "tunelDescription": "A tunnel of images will take you through Maradona's life, marked by a luminous carpet.",
+      "inmersive": "IMMERSIVE",
+      "inmersiveTitle": "IMMERSIVE EXPERIENCE.",
+      "inmersiveDescription": "The main hall of the PARK offers a 20-minute immersive show, an original video art piece that portrays Maradona's life.",
+      "memo": "MEMORABILIA",
+      "memoTitle": "DIEGO'S LIFE.",
+      "memoDescription": "A PHOTOGRAPHIC EXHIBITION of his personal and sporting life. Infographics with the most significant events of his life and career.",
+      "title2top": "BECOME MARADONA",
+      "title2bottom": "FOR A DAY",
+      "img1Title": "The Goal of the Century",
+      "img1Description": "Visitors have the opportunity to become an integral part of one of the most celebrated and exciting moments of the Number 10's sports career.",
+      "img2Title": "Discover Diego's History",
+      "img2Description": "The reconstruction of the house where Diego spent his childhood is very emotional. Upon entering, you feel the great symbolic value of this place.",
+      "img3Title": "The Goal with the Hand",
+      "img3Description": "Reenactment of the moment where the Hand of GOD was born. You can experience it firsthand!",
+      "img4Title": "The Goal of the Century",
+      "img4Description": "Interactive stations allow visitors to experience firsthand one of Maradona's most iconic moments: the goal against England.",
+      "title3top": "CHALLENGES",
+      "title3bottom": "OF THE NUMBER 10",
+      "img5Title": "Control the Ball Like Number 10!",
+      "img5Description": "Perform dribbles, feints, and spectacular passes. Show off your skill and creativity with the ball!",
+      "img6Title": "Score Like a Champion!",
+      "img6Description": "Execute free kicks, penalties, and moving shots, just like Diego did in his best moments.",
+      "buy": "BUY TICKETS"
+    },
+    "information": {
+      "infoTitle": "PRACTICAL INFORMATION",
+      "infoSubtitle1": "What is DIEGO LIVES?",
+      "infoDescription1": "DIEGO LIVES is the world's first THEME PARK conceived and created as a tribute to DIEGO ARMANDO MARADONA, a sports figure of great fame and charisma, an immortal idol for millions of fans. A great entertainment space for the whole family, where parents and grandparents can share with children and grandchildren the emotion of a journey through time with the greatest football player of all time. An unmissable event for all those who loved, and still love, the eternal champion, in the collective imagination much more than a footballer. A 3D adventure that allows you to feel like Maradona for a day, suspended between dream and reality.",
+      "infoSubtitle2": "How long does the visit last?",
+      "infoDescription2": "The visit to the park lasts approximately 50 minutes."
+    },
+    "contact": {
+      "contactTitle": "CONTACT",
+      "name": "Name",
+      "surname": "Surname",
+      "email": "E-Mail",
+      "phone": "Phone",
+      "message": "Message",
+      "send": "SEND",
+      "follow": "Follow us!",
+      "sponsors": "Sponsors"
+    },
+    "LocaleSwitcher": {
+      "label": "Language",
+      "locale": "{locale, select, en {English} es {Spanish} it {Italian}}"
+    }
+}

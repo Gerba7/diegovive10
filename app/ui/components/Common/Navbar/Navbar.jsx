@@ -8,6 +8,8 @@ import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
 import { usePathname } from 'next/navigation';
 import Logo_DiegoVive10 from '../../../../../public/images/Logo.png';
+import { useTranslations } from 'next-intl';
+import LocaleSwitcher from './LocaleSwitcherSelect/LocaleSwitcher/LocaleSwitcher';
 
 
 
@@ -15,6 +17,8 @@ import Logo_DiegoVive10 from '../../../../../public/images/Logo.png';
 
 
 const Navbar = () => {
+
+    const t = useTranslations("navbar");
 
     const [navHeight, setNavHeight] = useState(false);
     const [displayMenu, setDisplayMenu] = useState(true);
@@ -54,7 +58,7 @@ const Navbar = () => {
       <div className={`${styles.container} ${navHeight ? styles.containerHeight : ''}`}>
         <div className={styles.wrapper}>
           <div className={styles.left}>
-              <button className={styles.button2}>COMPRAR ENTRADAS</button>
+              <button className={styles.button2}>{t("buy")}</button>
               <div className={styles.burger} onClick={e => toggleMenu(e)}> 
                 <div className={styles.menuItem} style={{color: navHeight && '#ffffff'}}>
                   {displayMenu ?  <MenuIcon color='inherit' style={{fontSize: 'inherit'}} /> 
@@ -62,17 +66,18 @@ const Navbar = () => {
                 </div>
               </div>
               <Link className={styles.logoLink} href='/'>
-                  <h1 className={styles.title}>Jochy</h1>
+                  <h1 className={styles.title}>DiegoVive10</h1>
                   <Image className={`${styles.logoNavbar} ${navHeight ? styles.visible : ''}`} src={Logo_DiegoVive10} alt='CLogo_DiegoVive10' width={'auto'} height={50} priority />
               </Link>
           </div>
           <div className={`${styles.right} ${displayMenu ? styles.rightDisplay : ''}`}>
-              <Link href='#proyecto' className={styles.link}>HOME</Link>
-              <Link href='#contacto' className={styles.link}>EXPERIENCIA</Link>
-              <Link href='#contacto' className={styles.link}>INFORMACIÓN</Link>
-              <Link href='#contacto' className={styles.link}>UBICACIÓN</Link>
-              <Link href='#contacto' className={styles.link}>CONTACTO</Link>
-              <button className={styles.button}>COMPRAR ENTRADAS</button>
+              <Link href={`#${t("home")}`} className={styles.link}>{t("home")}</Link>
+              <Link href={`#${t("experience")}`} className={styles.link}>{t("experience")}</Link>
+              <Link href={`#${t("information")}`} className={styles.link}>{t("information")}</Link>
+              <Link href={`#${t("location")}`} className={styles.link}>{t("location")}</Link>
+              <Link href={`#${t("contact")}`} className={styles.link}>{t("contact")}</Link>
+              <button className={styles.button}>{t("buy")}</button>
+              <LocaleSwitcher />
           </div>
         </div>
       </div>

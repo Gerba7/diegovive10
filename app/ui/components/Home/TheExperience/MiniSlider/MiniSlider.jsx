@@ -8,38 +8,17 @@ import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import MEMORABILIA from '../../../../../../public/images/tunel.jpg';
 import TUNEL from '../../../../../../public/images/Tunel2.jpg';
 import HOLOGRAMA from '../../../../../../public/images/holograma.jpg';
+import { useTranslations } from 'next-intl';
 
 
 
-const items = [
-    {
-      id: 0,
-      title: 'TÚNEL',
-      img: TUNEL,
-      title2: 'EL ENCUENTRO CON DIEGO.',
-      text: 'Un túnel de imágenes te llevará a un recorrido por la vida de Maradona, marcado por una alfombra luminosa.'
-    },
-    {
-      id: 1,
-      title: 'INMERSIVA',
-      img: HOLOGRAMA,
-      title2: 'EXPERIENCIA INMERSIVA.',
-      text: 'La sala principal del PARQUE ofrece un espectáculo inmersivo de 20 minutos, una obra de videoarte inédita que recorre la vida de Maradona.'
-    },
-    {
-      id: 2,
-      title: 'MEMORABILIA',
-      img: MEMORABILIA,
-      title2: 'LA VIDA DE DIEGO.',
-      text: 'Una EXPOSICIÓN FOTOGRÁFICA de su vida personal y deportiva. Infografías con los eventos más destacados de su vida y carrera.'
-    },
-]
+
 
 
 
 const MiniSlider = () => {
 
-    
+    const t = useTranslations("experience");
 
     const [slideIndex, setSlideIndex] = useState(0);
     
@@ -72,6 +51,30 @@ const MiniSlider = () => {
     }, [slideIndex])
 
 
+
+    const items = [
+        {
+          id: 0,
+          title: t("tunel"),
+          img: TUNEL,
+          title2: t("tunelTitle"),
+          text: t("tunelDescription")
+        },
+        {
+          id: 1,
+          title: t("inmersive"),
+          img: HOLOGRAMA,
+          title2: t("inmersiveTitle"),
+          text: t("inmersiveDescription")
+        },
+        {
+          id: 2,
+          title: t("memo"),
+          img: MEMORABILIA,
+          title2: t("memoTitle"),
+          text: t("memoDescription")
+        },
+    ]
 
 
   return (

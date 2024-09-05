@@ -1,7 +1,9 @@
 import { Anton, Roboto } from "next/font/google";
 import "./globals.css";
-import Navbar from "./ui/components/Common/Navbar/Navbar";
+import Navbar from "../ui/components/Common/Navbar/Navbar";
 import localFont from 'next/font/local';
+import { getMessages } from "next-intl/server";
+import { NextIntlClientProvider } from "next-intl";
 
 
 const anton = Anton({ subsets: ["latin"], display: 'swap', weight: ['400'], });
@@ -10,7 +12,7 @@ export const roboto = Roboto({ subsets: ["latin"], display: 'swap', weight: ['40
 export const gabriel = localFont({
   src: [
     {
-      path: '../public/fonts/gabr.ttf',
+      path: '../../public/fonts/gabr.ttf',
       weight: '500',
     },
   ],
@@ -20,7 +22,7 @@ export const gabriel = localFont({
 export const helvetica = localFont({
   src: [
     {
-      path: '../public/fonts/Helvetica.ttf',
+      path: '../../public/fonts/Helvetica.ttf',
       weight: '500',
     },
   ],
@@ -33,12 +35,17 @@ export const metadata = {
   description: "Experiencia inmersiva del 10",
 };
 
-export default function RootLayout({ children }) {
+export default async function RootLayout({ children, params: { locale } }) {
+
+  const messages = await getMessages()
+
   return (
-    <html lang="en">
+    <html lang={locale}>
       <body className={anton.className}>
-        <Navbar />
-        {children}
+        <NextIntlClientProvider messages={messages}>
+          <Navbar />
+          {children}
+        </NextIntlClientProvider>
       </body>
     </html>
   );
