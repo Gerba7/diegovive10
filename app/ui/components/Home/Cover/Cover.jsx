@@ -26,7 +26,10 @@ const Cover = () => {
         <div className={styles.wrapper}>
             <Image className={styles.img} src={Logo_DiegoVive10} alt='Logo diegovive10' priority />
             <div className={styles.banner}>
-                <h2 className={`${gabrielClassName} ${styles.bannerText}`}>{t("title")}</h2>
+                <div className={styles.titles}>
+                    <h2 className={`${styles.bannerText}`}>{t("title")}</h2>
+                    <h2 className={`${styles.bannerText}`}>{t("title2")}</h2>
+                </div>
                 <h3 className={`${gabrielClassName} ${styles.subtitle}`}>{t("subtitle")}</h3>
             </div>
             <div className={styles.countries}>
