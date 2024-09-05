@@ -220,6 +220,10 @@
         font-weight: 400;
     }
 
+    .button {
+        font-size: var(--subtitleMobile);
+    }
+
     .button2 {
         display: flex;
         font-size: var(--subtitleMobile);

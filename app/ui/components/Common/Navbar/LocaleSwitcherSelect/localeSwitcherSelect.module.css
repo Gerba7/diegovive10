@@ -9,3 +9,15 @@
     background-color: transparent;
     color: var(--bg);
 }
+
+
+@media (max-width: 800px) {
+    
+    .select {
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        width: 15vw;
+    }
+
+}
