@@ -92,8 +92,8 @@
 }
 
 .button:hover {
-    background-color: var(--brandIn2);
-    color: var(--brandIn);
+    background-color: var(--cutColor);
+    color: var(--text);
 }
 
 .disabled {

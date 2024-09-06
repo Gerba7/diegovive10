@@ -140,9 +140,8 @@
 }
 
 .button:hover {
-    background-color: transparent;
-    border: 1px solid var(--cutColor);
-    color: var(--bg);
+    background-color: var(--cutColor);
+    color: var(--text);
 }
 
 .bottom {

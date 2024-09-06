@@ -51,7 +51,7 @@
 .arrowRight {
     width: 48px;
     height: 48px;
-    background-color: #344b6be0;
+    background-color: #0044b979;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -96,6 +96,9 @@
     width: 100%;
     height: 100%;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .backgroundImg {
@@ -107,7 +110,7 @@
 }
 
 .textContainer {
-    background-color: #0000007d;
+    background-color: #0044b979;
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -124,11 +127,13 @@
     color: var(--cutColor);
     font-size: var(--title2);
     letter-spacing: var(--letterSpacing);
+    font-weight: 400;
 }
 
 .text {
     font-size: var(--heading);
     letter-spacing: var(--letterSpacing);
+    font-weight: 400;
 }
 
 .wrapper {
@@ -217,7 +222,7 @@
 @media  (max-width: 799px) {
 
     .arrowLeft {
-        background-color: #344b6be0;
+        background-color: #0044b979;
     }
 
     .topSelectors {
@@ -243,7 +248,7 @@
     }
 
     .textContainer {
-        background-color: #0000008d;
+        background-color: #0044b979;
         position: absolute;
         display: flex;
         flex-direction: column;
@@ -263,6 +268,14 @@
     
     .text {
         font-size: var(--subtitleMobile);
+    }
+
+    .video {
+        width: auto;
+        height: 100%;
+        object-fit: cover;
+        -o-object-fit: cover;
+        align-self: center;
     }
 
 
