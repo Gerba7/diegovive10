@@ -145,6 +145,10 @@
         width: 30vw;
     }
 
+    .titles {
+        line-height: 3.5vh;
+    }
+
 
 }
 
