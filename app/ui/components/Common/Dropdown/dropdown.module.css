@@ -6,8 +6,7 @@
     outline: none;
     border: none;
     font-size: var(--heading);
-    min-width: 12vw;
-    max-width: 12vw;
+    width: 12vw;
     margin-left: 2vw;
     cursor: pointer;
     border: 1px solid transparent;
@@ -25,8 +24,7 @@
 }
 
 .dropdownContent {
-    min-width: 12vw;
-    max-width: 12vw;
+    width: 12vw;
     display: none;
     position: absolute;
     top: 100%;
@@ -35,6 +33,7 @@
     z-index: 1;
     flex-direction: column;
     border-radius: 10px;
+    z-index: 15;
 }
 
 .dropdown:hover .dropdownContent {
@@ -49,7 +48,7 @@
 }
 
 .dropdownLink {
-    min-width: 12vw;
+    width: 12vw;
     width: 100%;
     background-color: var(--cutColor);
     color: var(--bg);
@@ -63,4 +62,23 @@
 
 .dropdownLink:hover {
     color: var(--text);
+}
+
+
+@media  (max-width: 799px) {
+
+    .dropdown {
+        font-size: var(--subtitleMobile);
+        width: 50vw;
+    }
+
+    .dropdownLink {
+        width: 50vw;
+    }
+
+    .dropdownContent {
+        width: 50vw;
+    }
+
+
 }
