@@ -32,6 +32,13 @@
     font-weight: 400;
 }
 
+.video {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    -o-object-fit: cover;
+}
+
 .titleActive {
     border-bottom: 2px solid var(--cutColor);
 }

@@ -58,21 +58,24 @@ const MiniSlider = () => {
           title: t("tunel"),
           img: TUNEL,
           title2: t("tunelTitle"),
-          text: t("tunelDescription")
+          text: t("tunelDescription"),
+          type: 'video'
         },
         {
           id: 1,
           title: t("inmersive"),
           img: HOLOGRAMA,
           title2: t("inmersiveTitle"),
-          text: t("inmersiveDescription")
+          text: t("inmersiveDescription"),
+          type: 'image'
         },
         {
           id: 2,
           title: t("memo"),
           img: MEMORABILIA,
           title2: t("memoTitle"),
-          text: t("memoDescription")
+          text: t("memoDescription"),
+          type: 'image'
         },
     ]
 
@@ -91,9 +94,17 @@ const MiniSlider = () => {
         <div className={styles.wrapper}>
             {items?.map((item, idx) => (
                 <div className={styles.slide} key={idx} style={{ transform: `translate(-${slideIndex * 100}%)`}}>
-                    <div className={styles.background}>
-                        <Image src={item.img} className={styles.backgroundImg} alt='Razones' />
-                    </div>
+                    {item?.type === 'image' ? 
+                        <div className={styles.background}>
+                            <Image src={item.img} className={styles.backgroundImg} alt='Razones' />
+                        </div>
+                    :
+                        <div className={styles.background}>
+                            <video preload="none" className={styles.video} autoPlay loop muted playsInline> 
+                                <source src={"/video/tunel_1.mp4"} type="video/mp4" />
+                            </video>
+                        </div>
+                    }
                     <div className={styles.textContainer}>
                         <h3 className={`${styles.footerText}`}>{item.title2}</h3>
                         <p className={styles.text}>{item.text}</p>
