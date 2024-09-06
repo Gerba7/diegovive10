@@ -9,6 +9,7 @@ import MEMORABILIA from '../../../../../../public/images/tunel.jpg';
 import TUNEL from '../../../../../../public/images/Tunel2.jpg';
 import HOLOGRAMA from '../../../../../../public/images/holograma.jpg';
 import { useTranslations } from 'next-intl';
+import Casa from '../../../../../../public/images/casa.jpg';
 
 
 
@@ -57,23 +58,31 @@ const MiniSlider = () => {
           id: 0,
           title: t("tunel"),
           img: TUNEL,
-          title2: t("tunelTitle"),
+          title2: t("tunel"),
           text: t("tunelDescription"),
           type: 'video'
         },
         {
           id: 1,
-          title: t("inmersive"),
-          img: HOLOGRAMA,
-          title2: t("inmersiveTitle"),
-          text: t("inmersiveDescription"),
+          title: t("img2Title"),
+          img: Casa,
+          title2: t("img2Title"),
+          text: t("img2Description"),
           type: 'image'
         },
         {
           id: 2,
+          title: t("inmersive"),
+          img: HOLOGRAMA,
+          title2: t("inmersive"),
+          text: t("inmersiveDescription"),
+          type: 'image'
+        },
+        {
+          id: 3,
           title: t("memo"),
           img: MEMORABILIA,
-          title2: t("memoTitle"),
+          title2: t("memo"),
           text: t("memoDescription"),
           type: 'image'
         },
@@ -83,9 +92,14 @@ const MiniSlider = () => {
   return (
     <div className={styles.container}>
         <></>
-        <div className={styles.topSelectors}>
+        {/* <div className={styles.topSelectors}>
             {items?.map((item, idx) => (
                 <h3 key={idx} className={`${styles.titleSelector} ${slideIndex === idx && styles.titleActive}`} onClick={() => setSlideIndex(idx)}>{item.title}</h3>
+            ))}
+        </div> */}
+        <div className={styles.dotsContainer}>
+            {items?.map((_, idx) => (
+                <div key={idx} className={`${styles.dot} ${slideIndex === idx && styles.dotActive}`} onClick={() => setSlideIndex(idx)} />
             ))}
         </div>
         <div className={`${styles.arrow} ${styles.arrowLeft}`} onClick={() => handleClick("left")}>

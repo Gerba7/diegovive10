@@ -10,6 +10,7 @@ import { usePathname } from 'next/navigation';
 import Logo_DiegoVive10 from '../../../../../public/images/Logo.png';
 import { useTranslations } from 'next-intl';
 import LocaleSwitcher from './LocaleSwitcherSelect/LocaleSwitcher/LocaleSwitcher';
+import Dropdown from '../Dropdown/Dropdown';
 
 
 
@@ -76,7 +77,8 @@ const Navbar = () => {
               <Link href={`#${t("information")}`} className={styles.link}>{t("information")}</Link>
               <Link href={`#${t("location")}`} className={styles.link}>{t("location")}</Link>
               <Link href={`#${t("contact")}`} className={styles.link}>{t("contact")}</Link>
-              <button className={styles.button}>{t("buy")}</button>
+              {/* <button className={styles.button}>{t("buy")}</button> */}
+              <Dropdown title={t("buy")} />
               <LocaleSwitcher />
           </div>
         </div>
