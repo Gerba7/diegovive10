@@ -59,7 +59,9 @@ const Navbar = () => {
       <div className={`${styles.container} ${navHeight ? styles.containerHeight : ''}`}>
         <div className={styles.wrapper}>
           <div className={styles.left}>
-              <button className={styles.button2}>{t("buy")}</button>
+              <div className={styles.navbarBtn}>
+                <Dropdown title={t("buy")} />
+              </div>
               <div className={styles.burger} onClick={e => toggleMenu(e)}> 
                 <div className={styles.menuItem} style={{color: navHeight && '#ffffff'}}>
                   {displayMenu ?  <MenuIcon color='inherit' style={{fontSize: 'inherit'}} /> 

@@ -69,15 +69,14 @@
 
     .dropdown {
         font-size: var(--subtitleMobile);
-        width: 50vw;
     }
 
     .dropdownLink {
-        width: 50vw;
+        width: 45vw;
     }
 
     .dropdownContent {
-        width: 50vw;
+        width: 45vw;
     }
 
 

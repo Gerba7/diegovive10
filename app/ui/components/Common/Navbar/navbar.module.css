@@ -149,6 +149,10 @@
     color: var(--text);
 }
 
+.navbarBtn {
+    display: none;
+}
+
 @media (max-width: 800px) {
     
     .container {
@@ -230,6 +234,13 @@
     .button2 {
         display: flex;
         font-size: var(--subtitleMobile);
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .navbarBtn {
+        display: flex;
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
