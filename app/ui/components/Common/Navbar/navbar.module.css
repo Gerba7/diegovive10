@@ -81,7 +81,7 @@
     font-size: var(--heading);
     font-weight: 400;
     height: max-content;
-    padding: 0 2vw;
+    margin: 0 2vw;
     text-decoration: none;
     letter-spacing: var(--letterSpacing);
     text-transform: uppercase;
@@ -99,7 +99,7 @@
     width: 0%;
     height: 2px;
     opacity: 0;
-    background-color: var(--BrandDark);
+    background-color: var(--cutColor);
     border-radius: 10px;
     transition: opacity 0.3s ease-in-out, width 0.3s ease-in-out;
     will-change: opacity width;
