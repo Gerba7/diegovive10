@@ -72,6 +72,7 @@
 .subtitle {
     font-size: var(--title2);
     letter-spacing: var(--letterSpacing);
+    font-weight: 400;
 }
 
 .socialIcon {

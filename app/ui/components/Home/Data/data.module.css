@@ -82,6 +82,7 @@
 
 .questionTitle {
     font-size: var(--title2);
+    font-weight: 400;
 }
 
 .iconContainer {
@@ -114,6 +115,7 @@
     display: none;
     color: var(--bg);
     font-size: var(--heading);
+    line-height: 3vh;
 }
 
 .visible {

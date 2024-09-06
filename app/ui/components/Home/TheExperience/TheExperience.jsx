@@ -12,6 +12,8 @@ import Casa from '../../../../../public/images/casa.jpg';
 import Mano from '../../../../../public/images/mano.jpg';
 import Dribbling from '../../../../../public/images/dribbling.png';
 import Penalties from '../../../../../public/images/penales.png';
+import DiegoJR from '../../../../../public/images/diegojr.jpg';
+import Claudia from '../../../../../public/images/claudia.jpg';
 import VR from '../../../../../public/images/vr.jpg';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
@@ -62,7 +64,7 @@ const TheExperience = () => {
       </div>
       <div className={`${styles.gridContainer} ${helveticaClassName}`}>
         <div className={styles.imgContainer}>
-          <Image className={styles.img} src={Tunel2} alt='' />
+          <Image className={styles.img} src={Claudia} alt='' />
           <h4 className={styles.text}><span className={`${styles.color} ${gabrielClassName}`}>{t("img1Title")}</span> {t("img1Description")}</h4>
         </div>
         <div className={styles.imgContainer}>
@@ -82,12 +84,12 @@ const TheExperience = () => {
         <div className={styles.top2}>
           <h2 style={{textAlign: 'center'}} className={`${styles.titles2}`}>{t("title3top")}<br/>{t("title3bottom")}</h2>
           <div className={`${styles.imgContainer} ${helveticaClassName}`}>
-            <Image className={styles.img} src={Dribbling} alt='' />
-            <h4 className={styles.text}><span className={`${styles.color} ${gabrielClassName}`}>{t("img5Title")}</span> {t("img5Description")}</h4>
+            <Image className={styles.img} src={DiegoJR} alt='' />
+            <h4 className={styles.text}><span className={`${styles.color} ${gabrielClassName}`}>{t("img6Title")}</span> {t("img6Description")}</h4>
           </div>
           <div className={`${styles.imgContainer} ${helveticaClassName}`}>
-            <Image className={styles.img} src={Penalties} alt='' />
-            <h4 className={styles.text}><span className={`${styles.color} ${gabrielClassName}`}>{t("img6Title")}</span> {t("img6Description")}</h4>
+            <Image className={styles.img} src={Dribbling} alt='' />
+            <h4 className={styles.text}><span className={`${styles.color} ${gabrielClassName}`}>{t("img5Title")}</span> {t("img5Description")}</h4>
           </div>
         </div>
       </div>
