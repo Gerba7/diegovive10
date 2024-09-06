@@ -284,6 +284,39 @@
         align-self: center;
     }
 
+    .dotsContainer {
+        position: absolute;
+        height: 10%;
+        width: 40%;
+        background-color: var(--main);
+        top: 0;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        z-index: 5;
+        border-radius: 35px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 5vw;
+        box-shadow: 0px 10px 15px -3px rgba(256,256,256,0.1);
+    }
+    
+    .dot {
+        display: inline-block;
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+        cursor: pointer;
+        margin: 0px 15px;
+        background-color: #fff;
+    }
+    
+    .dotActive {
+        background-color: var(--cutColor);
+        scale: 1.5;
+    }
+
 
 }
 
