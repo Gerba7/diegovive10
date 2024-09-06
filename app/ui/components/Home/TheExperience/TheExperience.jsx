@@ -13,6 +13,7 @@ import Mano from '../../../../../public/images/mano.jpg';
 import Dribbling from '../../../../../public/images/dribbling.png';
 import Penalties from '../../../../../public/images/penales.png';
 import DiegoJR from '../../../../../public/images/diegojr.jpg';
+import Wall from '../../../../../public/images/wall.jpg';
 import Claudia from '../../../../../public/images/claudia.jpg';
 import VR from '../../../../../public/images/vr.jpg';
 import Image from 'next/image';
@@ -68,7 +69,7 @@ const TheExperience = () => {
           <h4 className={styles.text}><span className={`${styles.color} ${gabrielClassName}`}>{t("img1Title")}</span> {t("img1Description")}</h4>
         </div>
         <div className={styles.imgContainer}>
-          <Image className={styles.img} src={Casa} alt='' />
+          <Image className={styles.img} src={Wall} alt='' />
           <h4 className={styles.text}><span className={`${styles.color} ${gabrielClassName}`}>{t("img2Title")}</span> {t("img2Description")}</h4>
         </div>
         <div className={styles.imgContainer}>
