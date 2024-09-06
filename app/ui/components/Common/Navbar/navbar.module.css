@@ -125,9 +125,8 @@
 }
 
 .button:hover {
-    background-color: transparent;
-    border: 1px solid var(--cutColor);
-    color: var(--bg);
+    background-color: var(--cutColor);
+    color: var(--text);
 }
 
 .button2 {
@@ -146,9 +145,8 @@
 }
 
 .button2:hover {
-    background-color: transparent;
-    border: 1px solid var(--cutColor);
-    color: var(--bg);
+    background-color: var(--cutColor);
+    color: var(--text);
 }
 
 @media (max-width: 800px) {
