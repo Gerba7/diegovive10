@@ -15,6 +15,7 @@ import Penalties from '../../../../../public/images/penales.png';
 import VR from '../../../../../public/images/vr.jpg';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
+import Dropdown from '../../Common/Dropdown/Dropdown';
 
 
 
@@ -91,7 +92,7 @@ const TheExperience = () => {
         </div>
       </div>
       <div className={styles.bottom}>
-        <button className={styles.button}>{t("buy")}</button>
+        <Dropdown title={t("buy")} />
         <Image src={Diegos} className={styles.bottomImg} alt='Diego' />
       </div>
     </div>
