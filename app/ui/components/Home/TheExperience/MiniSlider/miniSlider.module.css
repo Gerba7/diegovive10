@@ -121,6 +121,8 @@
     padding: 5vh;
     gap: 2vh;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .footerText {
@@ -132,8 +134,10 @@
 
 .text {
     font-size: var(--heading);
-    letter-spacing: var(--letterSpacing);
     font-weight: 400;
+    font-family:  Helvetica, sans-serif;
+    width: 80%;
+    text-align: center;
 }
 
 .wrapper {
@@ -310,6 +314,7 @@
         cursor: pointer;
         margin: 0px 15px;
         background-color: #fff;
+        z-index: 10;
     }
     
     .dotActive {
