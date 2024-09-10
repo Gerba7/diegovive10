@@ -4,6 +4,7 @@ import Navbar from "../ui/components/Common/Navbar/Navbar";
 import localFont from 'next/font/local';
 import { getMessages } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
+import Script from "next/script";
 
 
 const anton = Anton({ subsets: ["latin"], display: 'swap', weight: ['400'], });
@@ -44,7 +45,7 @@ export default async function RootLayout({ children, params: { locale } }) {
       <body className={anton.className}>
         <NextIntlClientProvider messages={messages}>
           {children}
-          <script src={`https://maps.googleapis.com/maps/api/js?key=${process.env.GOOGLE_MAPS_API_KEY}&libraries=places`}></script>
+          <Script src={`https://maps.googleapis.com/maps/api/js?key=${process.env.GOOGLE_MAPS_API_KEY}&libraries=places`}></Script>
         </NextIntlClientProvider>
       </body>
     </html>
