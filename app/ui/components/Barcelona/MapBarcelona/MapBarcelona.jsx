@@ -1,8 +1,6 @@
 'use client'
 
 import { useEffect, useRef } from 'react';
-import Logo from '../../../../../public/images/Logo.png';
-import { Visibility } from '@mui/icons-material';
 
 const Map = () => {
     const mapRef = useRef(null);
