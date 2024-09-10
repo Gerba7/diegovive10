@@ -102,8 +102,6 @@
     font-weight: 400;
     padding: .5vh 0;
     letter-spacing: var(--letterSpacing);
-    text-decoration: none;
-    color: var(--bg);
 }
 
 .comingSoon {

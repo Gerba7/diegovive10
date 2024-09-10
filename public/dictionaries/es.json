@@ -72,5 +72,12 @@
     "LocaleSwitcher": {
       "label": "Idioma",
       "locale": "{locale, select, en {Inglés} es {Español} it {Italiano}}"
+    },
+    "barcelona": {
+      "home": "inicio",
+      "location": "ubicación",
+      "tickets": "entradas",
+      "contact": "contacto",
+      "buy": "COMPRAR ENTRADAS"
     }
   }

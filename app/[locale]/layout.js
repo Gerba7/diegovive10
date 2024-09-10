@@ -43,9 +43,9 @@ export default async function RootLayout({ children, params: { locale } }) {
     <html lang={locale}>
       <body className={anton.className}>
         <NextIntlClientProvider messages={messages}>
-          <Navbar />
           {children}
         </NextIntlClientProvider>
+        <script src={`https://maps.googleapis.com/maps/api/js?key=${process.env.GOOGLE_MAPS_API_KEY}&libraries=places`}></script>
       </body>
     </html>
   );

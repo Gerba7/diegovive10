@@ -1,0 +1,7 @@
+
+
+.option {
+    text-transform: uppercase;
+    color: var(--bg);
+    background-color: var(--main);
+}

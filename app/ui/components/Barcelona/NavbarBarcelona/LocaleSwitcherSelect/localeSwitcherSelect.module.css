@@ -1,0 +1,25 @@
+.label {
+    margin-left: 2vw;
+}
+
+.select {
+    height: 4vh;
+    outline: none;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: var(--bg);
+    border: none;
+    cursor: pointer;
+}
+
+
+@media (max-width: 800px) {
+    
+    .select {
+        position: absolute;
+        top: 25px;
+        left: 50px;
+        width: 10vw;
+    }
+
+}

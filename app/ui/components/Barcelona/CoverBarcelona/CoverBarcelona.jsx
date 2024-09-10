@@ -1,15 +1,13 @@
 import Image from 'next/image';
-import styles from './cover.module.css';
+import styles from './coverBarcelona.module.css';
 import Logo_DiegoVive10 from '../../../../../public/images/Logo.png';
 import { useMemo } from 'react';
 import { gabriel } from '@/app/[locale]/layout';
 import { useTranslations } from 'next-intl';
-import Link from 'next/link';
-import CityButton from './CityButton/CityButton';
 
 
 
-const Cover = () => {
+const CoverBarcelona = () => {
 
     const gabrielClassName = useMemo(() => gabriel.className, [gabriel]);
 
@@ -36,13 +34,7 @@ const Cover = () => {
             </div>
             <div className={styles.countries}>
                 <div className={styles.done}>
-                    <h4 className={styles.country}>NAPOLI</h4>
-                    <h4 className={styles.country}>TEL-AVIV</h4>
-                    <CityButton city={'BARCELONA'} />
-                </div>
-                <div className={styles.comingSoon}>
-                    <h4 className={`${styles.country} ${styles.soon}`}>BUENOS AIRES</h4>
-                    <h4 className={`${styles.country} ${styles.soon}`}>LIMA</h4>
+                    <h4 className={styles.country}>BARCELONA</h4>
                 </div>
             </div>
         </div>
@@ -50,4 +42,4 @@ const Cover = () => {
   )
 }
 
-export default Cover
+export default CoverBarcelona

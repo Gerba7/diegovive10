@@ -1,0 +1,13 @@
+.country {
+    background-color: var(--cutColor);
+    font-size: var(--title2);
+    width: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    padding: .5vh 0;
+    letter-spacing: var(--letterSpacing);
+    text-decoration: none;
+    color: var(--bg);
+}
