@@ -68,15 +68,16 @@
         position: absolute;
         top: 50vh;
         bottom: 5vh;
-        left: 5vw;
-        right: 5vw;
+        left: 2.5vw;
+        right: 2.5vw;
         background-color: var(--cutColor);
         height: 25vh;
-        width: 90vw;
-        padding: 2vw;
+        width: 95vw;
+        padding: 2vw 4vw;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        
     }
 
     .title {

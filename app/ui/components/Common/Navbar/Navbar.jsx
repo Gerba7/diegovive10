@@ -74,7 +74,6 @@ const Navbar = () => {
               </Link>
           </div>
           <div className={`${styles.right} ${displayMenu ? styles.rightDisplay : ''}`}>
-              <Link href={`#${t("home")}`} className={styles.link}>{t("home")}</Link>
               <Link href={`#${t("experience")}`} className={styles.link}>{t("experience")}</Link>
               <Link href={`#${t("information")}`} className={styles.link}>{t("information")}</Link>
               <Link href={`#${t("location")}`} className={styles.link}>{t("location")}</Link>
