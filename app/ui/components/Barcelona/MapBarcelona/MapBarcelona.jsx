@@ -1,12 +1,18 @@
 'use client'
 
 import { useEffect, useRef } from 'react';
+import Icon from '../../../../../public/images/LogoMini.png'
 
 const Map = () => {
     const mapRef = useRef(null);
     
     useEffect(() => {
-        const map = new google.maps.Map(mapRef.current, {
+
+      async function initMap() {
+        const { Map } = await google.maps.importLibrary("maps");
+        
+
+        const map = new Map(mapRef.current, {
             center: { lat: 41.38690560121824, lng: 2.1842300615298083 },
             zoom: 18,
             mapTypeIdControl: false,
@@ -64,11 +70,20 @@ const Map = () => {
               },
             ]
         });
+        
+        
+        const icon = `https://diegovive10.vercel.app/images/LogoMini.png`
+
         const marker = new google.maps.Marker({
           position: { lat: 41.38690560121824, lng: 2.1842300615298083 },
           map: map,
-          /* Optional: Customize marker properties like title, icon, etc. */
+          icon: icon
         });
+
+      }
+
+      initMap();
+
     }, []); 
 
     return <div ref={mapRef} style={{ height: '80vh', width: '100%' }} />;

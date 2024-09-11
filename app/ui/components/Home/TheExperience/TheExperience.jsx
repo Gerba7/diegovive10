@@ -38,19 +38,19 @@ const TheExperience = () => {
       </div>
       <div className={styles.icons}>
         <div className={styles.iconContainer}>
-            <Image className={styles.icon} src={INMERSIVA} />
+            <Image className={styles.icon} src={INMERSIVA} alt="INMERSIVA" />
             <h3 className={`${helveticaClassName} ${styles.iconTitle}`}>{t("icon1")}<br/>{t("icon1B")}</h3>
         </div>
         <div className={styles.iconContainer}>
-            <Image className={styles.icon} src={ENTRETENIMIENTO} />
+            <Image className={styles.icon} src={ENTRETENIMIENTO} alt="ENTRETENIMIENTO" />
             <h3 className={`${helveticaClassName} ${styles.iconTitle}`}>{t("icon2")}<br/>{t("icon2B")}</h3>
         </div>
         <div className={styles.iconContainer}>
-            <Image className={styles.icon} src={ENVOLVENTE} />
+            <Image className={styles.icon} src={ENVOLVENTE} alt="ENVOLVENTE" />
             <h3 className={`${helveticaClassName} ${styles.iconTitle}`}>{t("icon3")}<br/>{t("icon3B")}</h3>
         </div>
         <div className={styles.iconContainer}>
-            <Image className={styles.icon} src={FAMILIA} />
+            <Image className={styles.icon} src={FAMILIA} alt="FAMILIA" />
             <h3 className={`${helveticaClassName} ${styles.iconTitle}`}>{t("icon4")}<br/>{t("icon4B")}</h3>
         </div>
       </div>
@@ -62,19 +62,19 @@ const TheExperience = () => {
       </div>
       <div className={`${styles.gridContainer} ${helveticaClassName}`}>
         <div className={styles.imgContainer}>
-          <Image className={styles.img} src={Claudia} alt='' />
+          <Image className={styles.img} src={Claudia} alt='Claudia' />
           <h4 className={styles.text}><span className={`${styles.color} ${gabrielClassName}`}>{t("img1Title")}</span> {t("img1Description")}</h4>
         </div>
         <div className={styles.imgContainer}>
-          <Image className={styles.img} src={Wall} alt='' />
+          <Image className={styles.img} src={Wall} alt='Wall' />
           <h4 className={styles.text}><span className={`${styles.color} ${gabrielClassName}`}>{t("img2Title")}</span> {t("img2Description")}</h4>
         </div>
         <div className={styles.imgContainer}>
-          <Image className={styles.img} src={Mano} alt='' />
+          <Image className={styles.img} src={Mano} alt='Mano' />
           <h4 className={styles.text}><span className={`${styles.color} ${gabrielClassName}`}>{t("img3Title")}</span> {t("img3Description")}</h4>
         </div>
         <div className={styles.imgContainer}>
-          <Image className={styles.img} src={VR} alt='' />
+          <Image className={styles.img} src={VR} alt='VR' />
           <h4 className={styles.text}><span className={`${styles.color} ${gabrielClassName}`}>{t("img4Title")}</span> {t("img4Description")}</h4>
         </div>
       </div>
@@ -82,11 +82,11 @@ const TheExperience = () => {
         <div className={styles.top2}>
           <h2 style={{textAlign: 'center'}} className={`${styles.titles2}`}>{t("title3top")}<br/>{t("title3bottom")}</h2>
           <div className={`${styles.imgContainer} ${helveticaClassName}`}>
-            <Image className={styles.img} src={DiegoJR} alt='' />
+            <Image className={styles.img} src={DiegoJR} alt='DiegoJR' />
             <h4 className={styles.text}><span className={`${styles.color} ${gabrielClassName}`}>{t("img6Title")}</span> {t("img6Description")}</h4>
           </div>
           <div className={`${styles.imgContainer} ${helveticaClassName}`}>
-            <Image className={styles.img} src={Dribbling} alt='' />
+            <Image className={styles.img} src={Dribbling} alt='Dribbling' />
             <h4 className={styles.text}><span className={`${styles.color} ${gabrielClassName}`}>{t("img5Title")}</span> {t("img5Description")}</h4>
           </div>
         </div>

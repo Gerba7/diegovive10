@@ -45,7 +45,7 @@ export default async function RootLayout({ children, params: { locale } }) {
       <body className={anton.className}>
         <NextIntlClientProvider messages={messages}>
           {children}
-          <Script src={`https://maps.googleapis.com/maps/api/js?key=${process.env.GOOGLE_MAPS_API_KEY}&libraries=places`}></Script>
+          <Script src={`https://maps.googleapis.com/maps/api/js?key=${process.env.GOOGLE_MAPS_API_KEY}&loading=async&libraries=map,marker,places`} strategy="beforeInteractive"></Script>
         </NextIntlClientProvider>
       </body>
     </html>

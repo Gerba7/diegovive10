@@ -11,3 +11,15 @@
     text-decoration: none;
     color: var(--bg);
 }
+
+
+@media  (max-width: 799px) {
+
+
+    .country {
+        font-size: var(--title2Mobile);
+        width: 30vw;
+    }
+
+
+}
