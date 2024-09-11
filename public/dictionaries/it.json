@@ -78,6 +78,9 @@
       "location": "posizione",
       "tickets": "biglietti",
       "contact": "contatto",
-      "buy": "ACQUISTA BIGLIETTI"
+      "buy": "ACQUISTA BIGLIETTI",
+      "place": "Metronom",
+      "address": "C/ de la Fusina, 9, Ciutat Vella, 08003 Barcelona, España",
+      "locationButton": "Visualizza Posizione"
     }
 }

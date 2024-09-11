@@ -1,10 +1,17 @@
 'use client'
 
 import { useEffect, useRef } from 'react';
-import Icon from '../../../../../public/images/LogoMini.png'
+import styles from './mapBarcelona.module.css';
+import { useTranslations } from 'next-intl';
+import Link from 'next/link';
+
+
 
 const Map = () => {
+
     const mapRef = useRef(null);
+
+    const t = useTranslations("barcelona");
     
     useEffect(() => {
 
@@ -15,7 +22,8 @@ const Map = () => {
         const map = new Map(mapRef.current, {
             center: { lat: 41.38666, lng: 2.18336 },
             zoom: 18,
-            mapTypeIdControl: false,
+            disableDefaultUI: true,
+            fullscreenControl: true,
             styles: [
               {
                 featureType: 'road',
@@ -74,10 +82,23 @@ const Map = () => {
         
         const icon = `https://diegovive10.vercel.app/images/LogoMini.png`
 
+        const infowindow = new google.maps.InfoWindow({
+          content: "<div><b>Metronom</b></div><br/><div>C/ de la Fusina, 9, Ciutat Vella, 08003 Barcelona, España</div>",
+          ariaLabel: "Metronom",
+        });
+
         const marker = new google.maps.Marker({
           position: { lat: 41.38666, lng: 2.18336 },
           map: map,
-          icon: icon
+          icon: icon,
+          title: "Metronom"
+        });
+
+        marker.addListener("click", () => {
+          infowindow.open({
+            anchor: marker,
+            map,
+          });
         });
 
       }
@@ -86,7 +107,20 @@ const Map = () => {
 
     }, []); 
 
-    return <div ref={mapRef} style={{ height: '80vh', width: '100%' }} />;
+    return (
+      <div className={styles.content}>
+        <div className={styles.container}>
+          <div className={styles.scrollOffset} id={t("location")}></div>
+          <div ref={mapRef} style={{ height: '80vh', width: '100%' }} />
+        </div>
+        <div className={styles.info}>
+          <h3 className={styles.title}>{t("location")}</h3>
+          <h4 className={styles.subtitle}>{t("place")}</h4>
+          <h4 className={styles.paragraph}>{t("address")}</h4>
+          <a href='https://maps.app.goo.gl/wh6BGX2VG2JGpRQ87' rel="noopener noreferrer" target="_blank" className={styles.link}>{t("locationButton")}</a>
+        </div>
+      </div>
+    );
 };
 
 export default Map;
