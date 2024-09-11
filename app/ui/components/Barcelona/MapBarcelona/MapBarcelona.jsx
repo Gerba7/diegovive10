@@ -13,7 +13,7 @@ const Map = () => {
         
 
         const map = new Map(mapRef.current, {
-            center: { lat: 41.38690560121824, lng: 2.1842300615298083 },
+            center: { lat: 41.38666, lng: 2.18336 },
             zoom: 18,
             mapTypeIdControl: false,
             styles: [
@@ -75,7 +75,7 @@ const Map = () => {
         const icon = `https://diegovive10.vercel.app/images/LogoMini.png`
 
         const marker = new google.maps.Marker({
-          position: { lat: 41.38690560121824, lng: 2.1842300615298083 },
+          position: { lat: 41.38666, lng: 2.18336 },
           map: map,
           icon: icon
         });
