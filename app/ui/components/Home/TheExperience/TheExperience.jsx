@@ -63,31 +63,31 @@ const TheExperience = () => {
       <div className={`${styles.gridContainer} ${helveticaClassName}`}>
         <div className={styles.imgContainer}>
           <Image className={styles.img} src={Claudia} alt='Claudia' />
-          <h4 className={styles.text}><span className={`${styles.color} ${gabrielClassName}`}>{t("img1Title")}</span> {t("img1Description")}</h4>
+          <h4 className={styles.text}><span className={`${styles.color} ${gabrielClassName}`}> {t("img1Title")}</span> {t("img1Description")}</h4>
         </div>
         <div className={styles.imgContainer}>
           <Image className={styles.img} src={Wall} alt='Wall' />
-          <h4 className={styles.text}><span className={`${styles.color} ${gabrielClassName}`}>{t("img2Title")}</span> {t("img2Description")}</h4>
+          <h4 className={styles.text}><span className={`${styles.color} ${gabrielClassName}`}> {t("img2Title")}</span> {t("img2Description")}</h4>
         </div>
         <div className={styles.imgContainer}>
           <Image className={styles.img} src={Mano} alt='Mano' />
-          <h4 className={styles.text}><span className={`${styles.color} ${gabrielClassName}`}>{t("img3Title")}</span> {t("img3Description")}</h4>
+          <h4 className={styles.text}><span className={`${styles.color} ${gabrielClassName}`}> {t("img3Title")}</span> {t("img3Description")}</h4>
         </div>
         <div className={styles.imgContainer}>
           <Image className={styles.img} src={VR} alt='VR' />
-          <h4 className={styles.text}><span className={`${styles.color} ${gabrielClassName}`}>{t("img4Title")}</span> {t("img4Description")}</h4>
+          <h4 className={styles.text}><span className={`${styles.color} ${gabrielClassName}`}> {t("img4Title")}</span> {t("img4Description")}</h4>
         </div>
       </div>
       <div className={styles.rowContainer}>
         <div className={styles.top2}>
-          <h2 style={{textAlign: 'center'}} className={`${styles.titles2}`}>{t("title3top")}<br/>{t("title3bottom")}</h2>
+          <h2 style={{textAlign: 'center'}} className={`${styles.titles2}`}>{t("title3top")}<br/> {t("title3bottom")}</h2>
           <div className={`${styles.imgContainer} ${helveticaClassName}`}>
             <Image className={styles.img} src={DiegoJR} alt='DiegoJR' />
-            <h4 className={styles.text}><span className={`${styles.color} ${gabrielClassName}`}>{t("img6Title")}</span> {t("img6Description")}</h4>
+            <h4 className={styles.text}><span className={`${styles.color} ${gabrielClassName}`}> {t("img6Title")}</span> {t("img6Description")}</h4>
           </div>
           <div className={`${styles.imgContainer} ${helveticaClassName}`}>
             <Image className={styles.img} src={Dribbling} alt='Dribbling' />
-            <h4 className={styles.text}><span className={`${styles.color} ${gabrielClassName}`}>{t("img5Title")}</span> {t("img5Description")}</h4>
+            <h4 className={styles.text}><span className={`${styles.color} ${gabrielClassName}`}> {t("img5Title")}</span> {t("img5Description")}</h4>
           </div>
         </div>
       </div>

@@ -99,7 +99,7 @@
 
 .color {
     color: var(--cutColor);
-    font-size: var(--subtitle);
+    font-size: var(--heading) !important;
 }
 
 .text {
