@@ -64,10 +64,10 @@ const MiniSlider = () => {
         },
         {
           id: 1,
-          title: t("img2Title"),
+          title: t("houseTitle"),
           img: Casa,
-          title2: t("img2Title"),
-          text: t("img2Description"),
+          title2: t("houseTitle"),
+          text: t("houseDescription"),
           type: 'image'
         },
         {
