@@ -84,6 +84,16 @@
       "buy": "BUY TICKETS",
       "place": "Metronom",
       "address": "C/ de la Fusina, 9, Ciutat Vella, 08003 Barcelona, España",
-      "locationButton": "View Location"
+      "locationButton": "View Location",
+      "information": "information",
+      "info": "GENERAL INFORMATION",
+      "infoBarcelonaTitle1": "Location",
+      "infoBarcelona1": "Sala Metronom, Barcelona.",
+      "infoBarcelonaTitle2": "Dates",
+      "infoBarcelona2": "October 3rd to November 30th.",
+      "infoBarcelonaTitle3": "Days",
+      "infoBarcelona3": "Monday to Sunday from 10:00 to 21:30.",
+      "infoBarcelonaTitle4": "Duration",
+      "infoBarcelona4": "Between 60 and 90 minutes of interactive experience."
     }
 }
