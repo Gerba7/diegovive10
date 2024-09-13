@@ -74,7 +74,7 @@ const NavbarBarcelona = () => {
               </Link>
           </div>
           <div className={`${styles.right} ${displayMenu ? styles.rightDisplay : ''}`}>
-              <Link href={`#${t("tickets")}`} className={styles.link}>{t("tickets")}</Link>
+              <Link href={`#${t("information")}`} className={styles.link}>{t("informationNav")}</Link>
               <Link href={`#${t("location")}`} className={styles.link}>{t("location")}</Link>
               <Link href={`#${t("contact")}`} className={styles.link}>{t("contact")}</Link>
               <Dropdown title={t("buy")} />
