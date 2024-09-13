@@ -151,6 +151,7 @@
         padding: 10vh 5vw;
         gap: 5vw;
         background-attachment: initial;
+        background-position: 25%;
     }
 
     .title {
