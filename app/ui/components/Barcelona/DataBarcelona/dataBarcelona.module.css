@@ -186,6 +186,10 @@
         font-size: var(--title2Mobile);
     }
 
+    .question {
+        gap: 5vw;
+    }
+
     .answer {
         font-size: var(--subtitleMobile);
     }
@@ -193,6 +197,10 @@
     .button {
         font-size: var(--title2Mobile);
         padding: 2vh;
+    }
+
+    .iconContainer {
+        font-size: var(--titleMobile);
     }
 
 }
