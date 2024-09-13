@@ -99,7 +99,7 @@
 
 .color {
     color: var(--cutColor);
-    font-size: var(--heading) !important;
+    font-size: var(--heading);
 }
 
 .text {
@@ -194,7 +194,7 @@
     }
 
     .color {
-        font-size: var(--title2Mobile);
+        font-size: var(--subtitleMobile);
     }
     
     .text {

@@ -18,7 +18,7 @@
 
 .wrapperLeft{
     position: absolute;
-    top: 0;
+    bottom: 0;
     right: 0;
     width: 50%;
     height: 100%;
@@ -166,8 +166,7 @@
     .wrapperLeft{
         width: 100%;
         height: 35%;
-        -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, .7) 70%, rgba(0, 0, 0, 0) 100%);
-        mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, .7) 70%, rgba(0, 0, 0, 0) 100%);
+        bottom: 0;
     }
 
     .right {
@@ -189,6 +188,11 @@
 
     .answer {
         font-size: var(--subtitleMobile);
+    }
+
+    .button {
+        font-size: var(--title2Mobile);
+        padding: 2vh;
     }
 
 }
