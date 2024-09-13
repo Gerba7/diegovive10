@@ -11,7 +11,7 @@ const Dropdown = ({title}) => {
         {title}
         <span className={styles.dropdownContent}>
             <div className={styles.transparent}></div>
-            <Link className={styles.dropdownLink} href='/'>BARCELONA</Link>
+            <a href='https://tickets.oneboxtds.com/diegovive10/events' rel="noopener noreferrer" target="_blank" className={styles.dropdownLink}>BARCELONA</a>
         </span>
     </div>
   )
