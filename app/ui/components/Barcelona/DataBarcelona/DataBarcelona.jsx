@@ -31,47 +31,48 @@ const DataBarcelona = () => {
             <div className={styles.iconContainer}>
               <LocationOnIcon color='inherit' fontSize='inherit' />
             </div>
-            <div className={styles.top}>
+            {/* <div className={styles.top}>
               <div className={styles.questionTitle}>{t("infoBarcelona1")}</div>
-            </div>
-            {/* <div className={`${styles.answer} ${styles.visible} ${helveticaClassName}`}>
-              {t("infoBarcelona1")}
             </div> */}
+            <div className={`${styles.answer} ${styles.visible} ${helveticaClassName}`}>
+              {t("infoBarcelona1")}
+            </div>
           </div>
           <div className={styles.question}>
             <div className={styles.iconContainer}>
               <CalendarTodayIcon color='inherit' fontSize='inherit' />
             </div>
-            <div className={styles.top}>
+            {/* <div className={styles.top}>
               <div className={styles.questionTitle}>{t("infoBarcelona2")}</div>
-            </div>
-            {/* <div className={`${styles.answer} ${styles.visible} ${helveticaClassName}`}>
-              {t("infoBarcelona2")}
             </div> */}
+            <div className={`${styles.answer} ${styles.visible} ${helveticaClassName}`}>
+              {t("infoBarcelona2")}
+            </div>
           </div>
           <div className={styles.question}>
             <div className={styles.iconContainer}>
               <CheckIcon color='inherit' fontSize='inherit' />
             </div>
-            <div className={styles.top}>
+            {/* <div className={styles.top}>
               <div className={styles.questionTitle}>{t("infoBarcelona3")}</div>
-            </div>
-            {/* <div className={`${styles.answer} ${styles.visible} ${helveticaClassName}`}>
-              {t("infoBarcelona3")}
             </div> */}
+            <div className={`${styles.answer} ${styles.visible} ${helveticaClassName}`}>
+              {t("infoBarcelona3")}
+            </div>
           </div>
           <div className={styles.question}>
             <div className={styles.iconContainer}>
               <InfoIcon color='inherit' fontSize='inherit' />
             </div>
-            <div className={styles.top}>
+            {/* <div className={styles.top}>
               <div className={styles.questionTitle}>{t("infoBarcelona4")}</div>
-            </div>
-            {/* <div className={`${styles.answer} ${styles.visible} ${helveticaClassName}`}>
-              {t("infoBarcelona4")}
             </div> */}
+            <div className={`${styles.answer} ${styles.visible} ${helveticaClassName}`}>
+              {t("infoBarcelona4")}
+            </div>
           </div>
         </div>
+        <a className={styles.button} href='https://tickets.oneboxtds.com/diegovive10/events' rel="noopener noreferrer" target="_blank">{t("buy")}</a>
       </div>
       <div className={styles.right}>
         

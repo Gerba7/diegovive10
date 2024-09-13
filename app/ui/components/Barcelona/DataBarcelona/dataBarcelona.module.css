@@ -68,7 +68,7 @@
 .question {
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
+    align-items: center;
     padding: 3vh;
     border-radius: 16px;
     gap: 2vw;
@@ -100,7 +100,7 @@
     cursor: pointer;
     transition: transform .2s ease-in;
     will-change: transform;
-    color: var(--cutColor);
+    color: var(--bg);
 }
 
 .iconContainer:hover {
@@ -119,12 +119,40 @@
     color: var(--bg);
     font-size: var(--subtitle);
     line-height: 3vh;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 .visible {
     display: flex;
 }
 
+.button {
+    background-color: var(--cutColor);
+    padding: 1vw;
+    text-decoration: none;
+    color: var(--bg);
+    font-weight: 700;
+    outline: none;
+    border: none;
+    font-size: var(--subtitle);
+    min-width: max-content;
+    margin-left: 2vw;
+    cursor: pointer;
+    border: 1px solid transparent;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: center;
+}
+
+.button:hover {
+    background-color: var(--cutColor);
+    color: var(--text);
+}
 
 
 @media  (max-width: 799px) {
