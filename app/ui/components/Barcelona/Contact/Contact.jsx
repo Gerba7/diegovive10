@@ -10,13 +10,13 @@ import { useTranslations } from 'next-intl';
 
 
 
-const Contact = ({section}) => {
+const Contact = () => {
 
   const t = useTranslations("contact");
   const n = useTranslations("navbar")
 
   return (
-    <div className={`${section === 'barcelona' ? styles.containerBarcelona : styles.container}`}>
+    <div className={styles.container}>
       <div className={styles.scrollOffset} id={n("contact")}></div>
       <div className={styles.back} />
       <div className={styles.left}>

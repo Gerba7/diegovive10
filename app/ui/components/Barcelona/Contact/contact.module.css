@@ -14,22 +14,6 @@
     gap: 5vw
 }
 
-.containerBarcelona {
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    background-color: var(--bgDark);
-    color: #fff;
-    padding: 15vh 15vw;
-    justify-content: center;
-    position: relative;
-    background-image: url('../../../../../public/images/barcelo3.jpg');
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    gap: 5vw
-}
-
 .scrollOffset {
     position: absolute;
     top: -80px;
