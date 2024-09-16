@@ -138,7 +138,6 @@
     border: none;
     font-size: var(--subtitle);
     min-width: max-content;
-    margin-left: 2vw;
     cursor: pointer;
     border: 1px solid transparent;
     position: relative;

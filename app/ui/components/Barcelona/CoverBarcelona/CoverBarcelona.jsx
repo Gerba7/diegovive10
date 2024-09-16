@@ -4,6 +4,7 @@ import Logo_DiegoVive10 from '../../../../../public/images/Logo.png';
 import { useMemo } from 'react';
 import { gabriel } from '@/app/[locale]/layout';
 import { useTranslations } from 'next-intl';
+import Dropdown from '../../Common/Dropdown/Dropdown';
 
 
 
@@ -13,6 +14,7 @@ const CoverBarcelona = () => {
 
     const t = useTranslations("cover");
     const n = useTranslations("navbar");
+    const b = useTranslations("barcelona");
 
   return (
     <div className={styles.container}>
@@ -30,11 +32,12 @@ const CoverBarcelona = () => {
                     <h2 className={`${styles.bannerText}`}>{t("title")}</h2>
                     <h2 className={`${styles.bannerText}`}>{t("title2")}</h2>
                 </div>
-                <h3 className={`${gabrielClassName} ${styles.subtitle}`}>{t("subtitle")}</h3>
+                <h3 className={`${gabrielClassName} ${styles.subtitle}`}>{b("barcelona")}</h3>
             </div>
             <div className={styles.countries}>
                 <div className={styles.done}>
-                    <h4 className={styles.country}>BARCELONA</h4>
+                    {/* <h4 className={styles.country}>BARCELONA</h4> */}
+                    <a className={styles.button} href='https://tickets.oneboxtds.com/diegovive10/events' rel="noopener noreferrer" target="_blank">{b("buy")}</a>
                 </div>
             </div>
         </div>

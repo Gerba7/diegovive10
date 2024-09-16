@@ -36,13 +36,13 @@ const Cover = () => {
             </div>
             <div className={styles.countries}>
                 <div className={styles.done}>
-                    <h4 className={styles.country}>NAPOLI</h4>
-                    <h4 className={styles.country}>TEL-AVIV</h4>
                     <CityButton city={'BARCELONA'} />
-                </div>
-                <div className={styles.comingSoon}>
                     <h4 className={`${styles.country} ${styles.soon}`}>BUENOS AIRES</h4>
                     <h4 className={`${styles.country} ${styles.soon}`}>LIMA</h4>
+                </div>
+                <div className={styles.comingSoon}>
+                    <h4 className={`${styles.country} ${styles.passed}`}>NAPOLI</h4>
+                    <h4 className={`${styles.country} ${styles.passed}`}>TEL-AVIV</h4>
                 </div>
             </div>
         </div>

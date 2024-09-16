@@ -12,6 +12,10 @@
     color: var(--bg);
 }
 
+.country:hover {
+    color: #000;
+}
+
 
 @media  (max-width: 799px) {
 
