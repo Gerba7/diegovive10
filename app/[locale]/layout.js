@@ -32,7 +32,7 @@ export const helvetica = localFont({
 
 
 export const metadata = {
-  title: "DiegoVive10",
+  title: "Diego Vive Tour",
   description: "Experiencia inmersiva del 10",
 };
 
