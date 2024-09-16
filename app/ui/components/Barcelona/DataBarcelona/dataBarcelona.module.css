@@ -181,6 +181,10 @@
         gap: 5vh;
     }
 
+    .subtitle {
+        font-size: var(--title2Mobile);
+    }
+
     .title {
         font-size: var(--superTitleMobile);
         text-align: center;
