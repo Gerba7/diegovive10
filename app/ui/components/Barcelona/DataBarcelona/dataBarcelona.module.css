@@ -53,9 +53,18 @@
     position: relative;
 }
 
+.subtitle {
+    font-size: var(--title2);
+    font-weight: 400;
+    color: var(--bg);
+    text-align: center;
+    letter-spacing: var(--letterSpacing);
+}
+
 .title {
     font-size: var(--superTitle);
     color: var(--bg);
+    letter-spacing: var(--letterSpacing);
 }
 
 .questions {

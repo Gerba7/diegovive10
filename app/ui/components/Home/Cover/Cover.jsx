@@ -4,7 +4,6 @@ import Logo_DiegoVive10 from '../../../../../public/images/Logo.png';
 import { useMemo } from 'react';
 import { gabriel } from '@/app/[locale]/layout';
 import { useTranslations } from 'next-intl';
-import Link from 'next/link';
 import CityButton from './CityButton/CityButton';
 
 

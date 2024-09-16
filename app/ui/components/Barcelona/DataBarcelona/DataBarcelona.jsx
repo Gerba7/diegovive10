@@ -25,6 +25,7 @@ const DataBarcelona = () => {
         <Image src={Diego2} className={styles.img} width={500} height={300} alt='Diego' />
       </div>
       <div className={styles.left}>
+        <div className={styles.subtitle}>{t("infoSub")}</div>
         <div className={styles.title}>{t("info")}</div>
         <div className={styles.questions}>
           <div className={styles.question}>
