@@ -69,6 +69,8 @@
       "phone": "Telefono",
       "message": "Messaggio",
       "send": "INVIA",
+      "sent": "INVIATO",
+      "loading": "CARICAMENTO",
       "follow": "Seguici!",
       "sponsors": "Sponsor"
     },

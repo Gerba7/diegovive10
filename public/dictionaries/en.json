@@ -69,6 +69,8 @@
       "phone": "Phone",
       "message": "Message",
       "send": "SEND",
+      "sent": "SENT",
+      "loading": "LOADING",
       "follow": "Follow us!",
       "sponsors": "Sponsors"
     },

@@ -69,6 +69,8 @@
         "phone": "Teléfono",
         "message": "Mensaje",
         "send": "ENVIAR",
+        "sent": "ENVIADO",
+        "loading": "CARGANDO",
         "follow": "Seguinos!",
         "sponsors": "Auspician"
     },
