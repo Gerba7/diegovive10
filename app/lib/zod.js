@@ -6,5 +6,5 @@ export const clientSchema = z.object({
     surname: z.string().min(1, 'El apellido es un campo requerido'),
     email: z.string().min(1, 'El email es un campo requerido').email('Dirección de email inválida'),
     phone: z.coerce.number().min(1, 'El teléfono es un campo requerido'),
-    surname: z.string().min(1, 'El mensaje es un campo requerido'),
+    message: z.string().min(1, 'El mensaje es un campo requerido'),
 });

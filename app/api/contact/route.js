@@ -4,12 +4,13 @@ import { diegoMail } from '@/services/nodemailer';
 
 export async function POST(request, res) {
   
+  
   const { name, surname, email, phone, message } = await request.json();
 
   if (request.method === 'POST') {
     
     try {
-
+      
       await diegoMail({name, surname, email, phone, message});
 
       return new Response('Data submitted successfully and email sent', {

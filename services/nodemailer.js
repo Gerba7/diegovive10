@@ -1,13 +1,9 @@
 const nodemailer = require("nodemailer");
 
 
-
-
-
 export async function diegoMail(data) {
     
     try {
-
         
         const transporter = nodemailer.createTransport({
             host: 'smtp.hostinger.com',
@@ -52,7 +48,7 @@ export async function diegoMail(data) {
         
     } catch(err) {
 
-        console.log(err);
+        console.log(`Error de service: ${err}`);
 
     }
 
