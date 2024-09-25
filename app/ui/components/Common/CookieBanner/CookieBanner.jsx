@@ -17,6 +17,7 @@ const CookieBanner = () => {
 
     useEffect(() => {
         const storedCookieConsent = getLocalStorage("cookie_consent", null)
+        console.log(storedCookieConsent)
         setCookieConsent(storedCookieConsent);
         setLoading(false)
     }, []);
@@ -29,12 +30,16 @@ const CookieBanner = () => {
 
         const newValue = cookieConsent ? "granted" : "denied";
 
+        console.log(window.dataLayer);
 
         if (typeof window !== "undefined" && window.gtag) {
             window.gtag("consent", "update", {
                 ad_storage: newValue,
                 analytics_storage: newValue,
             })
+
+            console.log("Updated gtag function:", window.gtag);
+            console.log("Current dataLayer after consent update:", window.dataLayer);
         }
 
         setShowBanner(false);

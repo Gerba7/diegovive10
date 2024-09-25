@@ -7,6 +7,7 @@ import Script from "next/script";
 import { Analytics } from "@vercel/analytics/react"
 import CookieBanner from "../ui/components/Common/CookieBanner/CookieBanner";
 import Footer from "../ui/components/Common/Footer/Footer";
+import GoogleTagManager from "../ui/components/Common/GoogleTagManager/GoogleTagManager";
 
 
 const anton = Anton({ subsets: ["latin"], display: 'swap', weight: ['400'], });
@@ -45,23 +46,7 @@ export default async function RootLayout({ children, params: { locale } }) {
   return (
     <html lang={locale}>
       <head>
-        <Script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GTM_ID}`}></Script>
-        <Script id="gtm-config-script"
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('consent', 'default', {
-                'ad_storage': 'denied',
-                'analytics_storage': 'denied'
-              });
-              gtag('js', new Date());
-              gtag('config', '${process.env.GTM_ID}', {
-                'anonymize_ip': true,
-              });
-            `,
-          }}
-        />
+        <GoogleTagManager />
       </head>
       <body className={anton.className}>
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PHGHTBXB" height="0" width="0" style={{display: 'none', visibility: 'hidden'}}></iframe></noscript>
