@@ -157,6 +157,9 @@
 
 @media (min-width: 800px) and (max-width: 999px) {
 
+    .titles {
+        line-height: 3vh;
+    }
 
 
 }

@@ -99,5 +99,11 @@
       "infoBarcelona3": "Monday to Sunday from 10:00 to 21:30.",
       "infoBarcelonaTitle4": "Duration",
       "infoBarcelona4": "Between 60 and 90 minutes of interactive experience."
+    },
+    "cookies": {
+      "text": "This site uses tracking technologies. You may opt in or opt out of the use of these technologies.",
+      "accept": "Accept All",
+      "decline": "Decline All"
     }
+
 }

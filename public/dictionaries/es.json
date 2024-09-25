@@ -99,5 +99,10 @@
       "infoBarcelona3": "Lunes a Domingo de 10 a 21.30 hs.",
       "infoBarcelonaTitle4": "Duración",
       "infoBarcelona4": "Entre 60 y 90 minutos de experiencia interactiva."
+    },
+    "cookies": {
+      "text": "Este sitio utiliza tecnologías de seguimiento. Puedes optar por participar o no en el uso de estas tecnologías.",
+      "accept": "Aceptar todo",
+      "decline": "Rechazar todo"
     }
   }

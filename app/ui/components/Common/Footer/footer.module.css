@@ -1,4 +1,49 @@
 .container {
-    height: 50vh;
+    height: 5vh;
     background-color: var(--main);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10vw;
+    color: var(--bg);
+    font-size: var(--heading);
+    gap: 5vw;
+}
+
+.text {
+    color: var(--bg);
+    font-size: var(--heading);
+}
+
+
+@media  (max-width: 799px) {
+
+    .container {
+        font-size: var(--mobileHeading);
+    }
+
+    .text {
+        font-size: var(--mobileHeading);
+    }
+
+}
+
+
+@media (min-width: 800px) and (max-width: 999px) {
+
+
+
+}
+
+
+@media (min-width: 1000px) and (max-width: 1199px) {
+    
+
+
+}
+
+
+@media (min-width: 1200px) and (max-width: 1499px) {
+
+
 }

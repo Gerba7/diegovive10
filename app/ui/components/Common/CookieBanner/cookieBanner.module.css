@@ -1,0 +1,111 @@
+.cookieBanner {
+    display: flex;
+    width: max-content;
+    height: max-content;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    bottom: 0;
+}
+
+.visible {
+    display: flex;
+}
+
+.hidden {
+    display: none;
+}
+
+.cookieBannerInner {
+    position: relative;
+}
+
+.content {
+    position: absolute;
+    background-color: #00229081;
+    height: max-content;
+    width: 20vw;
+    bottom: 5vh;
+    left: 5vh;
+    padding: 5vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    border-radius: 16px;
+}
+
+.text {
+    color: var(--bg);
+    font-size: var(--heading);
+    letter-spacing: var(--letterSpacing);
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+.button {
+    padding: 1vh;
+    border: 1px solid var(--bg);
+    background-color: transparent;
+    color: var(--bg);
+    cursor: pointer;
+    font-size: var(--heading);
+}
+
+.color {
+    background-color: var(--cutColor);
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+}
+
+
+
+
+@media  (max-width: 799px) {
+
+    .button {
+        font-size: var(--mobileHeading);
+    }
+
+    .text {
+        font-size: var(--mobileHeading);
+        letter-spacing: var(--letterSpacing2);
+    }
+
+    .content {
+        width: 96vw;
+        bottom: 2vh;
+        left: 2vw;
+        padding: 2vh;
+        background-color: #002290dc;
+    }
+
+}
+
+
+@media (min-width: 800px) and (max-width: 999px) {
+
+    .content {
+        width: 28vw;
+    }
+
+}
+
+
+@media (min-width: 1000px) and (max-width: 1199px) {
+    
+    .content {
+        width: 25vw;
+    }
+
+}
+
+
+@media (min-width: 1200px) and (max-width: 1499px) {
+
+
+}
