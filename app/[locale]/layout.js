@@ -46,7 +46,7 @@ export default async function RootLayout({ children, params: { locale } }) {
     <html lang={locale}>
       <head>
         <Script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GTM_ID}`}></Script>
-        <Script
+        <Script id="gtm-config-script"
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];
