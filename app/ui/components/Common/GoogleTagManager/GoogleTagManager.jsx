@@ -19,6 +19,7 @@ const GoogleTagManager = () => {
       />
       <Script
         id="gtm-config-script"
+        strategy="afterInteractive" 
         dangerouslySetInnerHTML={{
           __html: `
             window.dataLayer = window.dataLayer || [];
