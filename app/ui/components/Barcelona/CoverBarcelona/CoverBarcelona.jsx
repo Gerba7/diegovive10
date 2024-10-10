@@ -37,7 +37,7 @@ const CoverBarcelona = () => {
             <div className={styles.countries}>
                 <div className={styles.done}>
                     {/* <h4 className={styles.country}>BARCELONA</h4> */}
-                    <a className={styles.button} href='https://tickets.oneboxtds.com/diegovive10/events' rel="noopener" target="_blank">{b("buy")}</a>
+                    <a className={styles.button} href='https://tickets.oneboxtds.com/diegovive10/events' target="_blank">{b("buy")}</a>
                 </div>
             </div>
         </div>

@@ -73,7 +73,7 @@ const DataBarcelona = () => {
             </div>
           </div>
         </div>
-        <a className={styles.button} href='https://tickets.oneboxtds.com/diegovive10/events' rel="noopener" target="_blank">{t("buy")}</a>
+        <a className={styles.button} href='https://tickets.oneboxtds.com/diegovive10/events' target="_blank">{t("buy")}</a>
       </div>
       <div className={styles.right}>
         

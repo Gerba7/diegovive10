@@ -117,7 +117,7 @@ const Map = () => {
           <h3 className={styles.title}>{t("location")}</h3>
           <h4 className={styles.subtitle}>{t("place")}</h4>
           <h4 className={styles.paragraph}>{t("address")}</h4>
-          <a href='https://maps.app.goo.gl/wh6BGX2VG2JGpRQ87' rel="noopener noreferrer" target="_blank" className={styles.link}>{t("locationButton")}</a>
+          <a href='https://maps.app.goo.gl/wh6BGX2VG2JGpRQ87'  target="_blank" className={styles.link}>{t("locationButton")}</a>
         </div>
       </div>
     );
