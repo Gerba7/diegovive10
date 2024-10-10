@@ -27,7 +27,7 @@ const Contact = ({section}) => {
         <div className={styles.socialContainer}>
             <h3 className={styles.subtitle}>{t("follow")}</h3>
             <div className={styles.icons}> 
-                <a href='https://www.instagram.com/diego_vive10' rel="noopener noreferrer" className={`${styles.socialIcon} ${styles.instagram}`} aria-label="Instagram Link">
+                <a href='https://www.instagram.com/diego_vive10' rel="noopener" className={`${styles.socialIcon} ${styles.instagram}`} aria-label="Instagram Link">
                     <InstagramIcon fontSize='inherit' />
                 </a>
                 <a href='https://www.facebook.com/diegovive10' className={`${styles.socialIcon} ${styles.facebook}`} aria-label="Facebook Link">
