@@ -13,7 +13,7 @@ const GoogleTagManager = () => {
     <>
       <Script
         async
-        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.GTM_ID}`}
+        src={`https://www.googletagmanager.com/gtag/js?id=GTM-PHGHTBXB`}
         strategy="afterInteractive" 
         onLoad={() => console.log('GTM script loaded')}
       />

@@ -17,7 +17,7 @@ const Barcelona = () => {
       <DataBarcelona />
       <MapBarcelona />
       <Contact section={'barcelona'} />
-      <Script src={`https://maps.googleapis.com/maps/api/js?key=${process.env.GOOGLE_MAPS_API_KEY}&loading=async&libraries=map,marker,places`} strategy="beforeInteractive"></Script>
+      {/* <Script src={`https://maps.googleapis.com/maps/api/js?key=${process.env.GOOGLE_MAPS_API_KEY}&loading=async&libraries=map,marker,places`} strategy="beforeInteractive"></Script> */}
     </div>
   )
 }
