@@ -11,15 +11,14 @@ const GoogleTagManager = () => {
 
   return (
     <>
-      <Script
+      <script
         async
         src={`https://www.googletagmanager.com/gtag/js?id=GTM-PHGHTBXB`}
-        strategy="afterInteractive" 
         onLoad={() => console.log('GTM script loaded')}
+        as='script'
       />
-      <Script
+      <script
         id="gtm-config-script"
-        strategy="afterInteractive" 
         dangerouslySetInnerHTML={{
           __html: `
             window.dataLayer = window.dataLayer || [];
@@ -34,6 +33,7 @@ const GoogleTagManager = () => {
             });
           `,
         }}
+        as='script'
       />
     </>
   )
