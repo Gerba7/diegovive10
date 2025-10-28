@@ -4,11 +4,13 @@ import TheExperience from "../ui/components/Home/TheExperience/TheExperience";
 import Data from "../ui/components/Home/Data/Data";
 import Contact from "../ui/components/Home/Contact/Contact";
 import Navbar from "../ui/components/Common/Navbar/Navbar";
+import Popup from "../ui/components/Home/PopUp/PopUp";
 
 export default function Home() {
   return (
     <main className={styles.main}>
       <Navbar />
+      <Popup />
       <Cover />
       <TheExperience />
       <Data />
